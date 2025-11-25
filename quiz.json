@@ -1,0 +1,518 @@
+[
+  {
+    "id": 1,
+    "question": "Quelle est la capitale de la France ?",
+    "options": [
+      "Berlin",
+      "Madrid",
+      "Paris",
+      "Rome"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Paris est la plus grande ville et la capitale de la France."
+  },
+  {
+    "id": 2,
+    "question": "Quel langage de programmation est souvent utilisé pour le développement web côté client ?",
+    "options": [
+      "Python",
+      "Java",
+      "C++",
+      "JavaScript"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "JavaScript est essentiel pour créer des pages web interactives côté client."
+  },
+  {
+    "id": 3,
+    "question": "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?",
+    "options": [
+      "1959",
+      "1969",
+      "1971",
+      "1989"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Neil Armstrong a été le premier homme à marcher sur la Lune le 20 juillet 1969."
+  },
+  {
+    "id": 4,
+    "question": "Quel est le principe de base de Git ?",
+    "options": [
+      "Gestion centralisée du code",
+      "Sauvegarde unique des fichiers",
+      "Suivi des modifications et gestion de versions distribuée",
+      "Création automatique de bases de données"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Git est un système de contrôle de version distribué largement utilisé dans le développement logiciel."
+  },
+  {
+    "id": 5,
+    "question": "Quel mot clé est utilisé pour déclarer une constante en JavaScript (ES6) ?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "static"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le mot clé `const` permet de déclarer une variable dont la valeur ne peut pas être modifiée."
+  },
+  {
+    "id": 6,
+    "question": "Quel est l'acronyme de CSS ?",
+    "options": [
+      "Computer Style Sheets",
+      "Creative Style Sheets",
+      "Cascading Style Sheets",
+      "Colorful Style Sheets"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "CSS signifie Cascading Style Sheets (Feuilles de style en cascade) et est utilisé pour styliser les éléments HTML."
+  },
+  {
+    "id": 7,
+    "question": "Quelle balise HTML est utilisée pour créer un lien hypertexte ?",
+    "options": [
+      "<a>",
+      "<link>",
+      "<href>",
+      "<url>"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "La balise `<a>` (pour ancre) est utilisée pour définir des hyperliens."
+  },
+  {
+    "id": 8,
+    "question": "Dans quel langage trouve-t-on le mot-clé 'def' pour définir une fonction ?",
+    "options": [
+      "Java",
+      "C#",
+      "Python",
+      "Ruby"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Python utilise `def` suivi du nom de la fonction et des parenthèses."
+  },
+  {
+    "id": 9,
+    "question": "Qu'est-ce qu'une base de données NoSQL ?",
+    "options": [
+      "Une base de données qui n'utilise pas SQL",
+      "Une base de données qui stocke uniquement des nombres",
+      "Une base de données relationnelle avancée",
+      "Une base de données sans serveur"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "NoSQL désigne les bases de données non relationnelles (comme MongoDB, DynamoDB, Cassandra)."
+  },
+  {
+    "id": 10,
+    "question": "Quel protocole est utilisé pour le transfert sécurisé de fichiers sur Internet ?",
+    "options": [
+      "FTP",
+      "HTTP",
+      "SSH",
+      "SFTP"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "SFTP (SSH File Transfer Protocol) utilise une connexion sécurisée SSH pour le transfert de fichiers."
+  },
+  {
+    "id": 11,
+    "question": "Quel framework JavaScript est maintenu par Google ?",
+    "options": [
+      "React",
+      "Vue",
+      "Angular",
+      "Svelte"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Angular est un framework de développement web open-source dirigé par l'équipe Angular de Google."
+  },
+  {
+    "id": 12,
+    "question": "Qu'est-ce qu'un 'callback' en programmation ?",
+    "options": [
+      "Une fonction qui appelle une autre fonction immédiatement",
+      "Une fonction passée en argument à une autre fonction, qui sera exécutée plus tard",
+      "Une erreur de syntaxe",
+      "Une méthode pour annuler une action"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Un callback est une fonction exécutée après qu'une opération asynchrone est terminée."
+  },
+  {
+    "id": 13,
+    "question": "Quelle méthode HTTP est utilisée pour récupérer des données d'un serveur ?",
+    "options": [
+      "POST",
+      "PUT",
+      "DELETE",
+      "GET"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "La méthode GET est utilisée pour demander une ressource spécifique au serveur."
+  },
+  {
+    "id": 14,
+    "question": "Quel est l'objectif principal de Docker ?",
+    "options": [
+      "Gérer des bases de données",
+      "Créer des interfaces utilisateur",
+      "Automatiser le déploiement d'applications dans des conteneurs",
+      "Compiler du code Java"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Docker utilise la conteneurisation pour s'assurer que les applications s'exécutent de la même manière quel que soit l'environnement."
+  },
+  {
+    "id": 15,
+    "question": "Quel langage est principalement utilisé pour interroger des bases de données relationnelles ?",
+    "options": [
+      "HTML",
+      "SQL",
+      "CSS",
+      "Ruby"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "SQL (Structured Query Language) est le langage standard pour interagir avec les bases de données relationnelles."
+  },
+  {
+    "id": 16,
+    "question": "Quel est le système de gestion de versions le plus populaire ?",
+    "options": [
+      "SVN",
+      "CVS",
+      "Git",
+      "Mercurial"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Git est le système de contrôle de version distribué le plus utilisé dans l'industrie."
+  },
+  {
+    "id": 17,
+    "question": "Quelle propriété CSS permet de centrer horizontalement un bloc ?",
+    "options": [
+      "text-align: center;",
+      "margin: auto;",
+      "align: center;",
+      "padding: center;"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Utiliser `margin: auto;` sur un élément avec une largeur définie le centre horizontalement dans son conteneur."
+  },
+  {
+    "id": 18,
+    "question": "Quelle est l'utilité de la commande Linux 'ls' ?",
+    "options": [
+      "Créer un nouveau répertoire",
+      "Supprimer un fichier",
+      "Afficher le contenu d'un répertoire",
+      "Copier un fichier"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "`ls` est utilisé pour lister le contenu (fichiers et répertoires) d'un répertoire."
+  },
+  {
+    "id": 19,
+    "question": "Qu'est-ce qu'un 'package manager' (gestionnaire de paquets) comme npm ou pip ?",
+    "options": [
+      "Un outil de gestion de projet Agile",
+      "Un outil pour gérer les dépendances et librairies d'un projet",
+      "Un logiciel de retouche d'image",
+      "Un compilateur de code"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Les gestionnaires de paquets automatisent l'installation, la mise à jour et la configuration des librairies logicielles."
+  },
+  {
+    "id": 20,
+    "question": "Quelle méthode est utilisée pour ajouter un élément à la fin d'un tableau en JavaScript ?",
+    "options": [
+      "append()",
+      "push()",
+      "add()",
+      "insert()"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "La méthode `Array.prototype.push()` ajoute un ou plusieurs éléments à la fin d'un tableau et retourne sa nouvelle longueur."
+  },
+  {
+    "id": 21,
+    "question": "Quel langage est à la base du développement Android natif, avec Kotlin ?",
+    "options": [
+      "C++",
+      "Python",
+      "Java",
+      "Swift"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Java a longtemps été le langage principal pour le développement Android, avant l'arrivée de Kotlin, désormais privilégié."
+  },
+  {
+    "id": 22,
+    "question": "Qu'est-ce qu'une API RESTful ?",
+    "options": [
+      "Une API qui utilise uniquement la méthode GET",
+      "Une architecture logicielle qui utilise les principes HTTP standards",
+      "Une API pour les bases de données NoSQL",
+      "Une interface graphique"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Une API REST utilise les verbes HTTP (GET, POST, PUT, DELETE) pour manipuler des ressources."
+  },
+  {
+    "id": 23,
+    "question": "Quelle est l'utilité de la commande 'npm install' ?",
+    "options": [
+      "Lancer l'application",
+      "Compiler le code source",
+      "Installer les dépendances listées dans package.json",
+      "Initialiser un nouveau projet Git"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "`npm install` lit le fichier `package.json` et télécharge les modules nécessaires dans le répertoire `node_modules`."
+  },
+  {
+    "id": 24,
+    "question": "Quel concept de programmation orientée objet permet à une classe d'hériter des propriétés d'une autre classe ?",
+    "options": [
+      "Encapsulation",
+      "Polymorphisme",
+      "Abstraction",
+      "Héritage"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "L'héritage permet de créer une nouvelle classe (classe fille) à partir d'une classe existante (classe mère)."
+  },
+  {
+    "id": 25,
+    "question": "Quel est le rôle du 'DOM' (Document Object Model) dans le développement web ?",
+    "options": [
+      "Un langage de programmation",
+      "Une norme pour crypter les données",
+      "Une interface de programmation pour les documents HTML et XML",
+      "Un type de base de données"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le DOM représente la structure d'un document web sous forme d'arbre d'objets, permettant aux scripts d'y accéder et de le modifier."
+  },
+  {
+    "id": 26,
+    "question": "Quel est le port standard pour le trafic HTTPS sécurisé ?",
+    "options": [
+      "80",
+      "21",
+      "443",
+      "8080"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le port 80 est utilisé pour HTTP non sécurisé, tandis que le port 443 est utilisé pour HTTPS (HTTP Secure)."
+  },
+  {
+    "id": 27,
+    "question": "Dans le développement web, qu'est-ce qu'un 'cookie' ?",
+    "options": [
+      "Un petit fichier texte stocké par le navigateur pour conserver des informations de session ou préférences utilisateur",
+      "Une erreur de serveur",
+      "Un type d'image web",
+      "Un framework CSS"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "Les cookies sont souvent utilisés pour l'authentification, le suivi de session et la mémorisation des préférences."
+  },
+  {
+    "id": 28,
+    "question": "Quel est l'outil le plus populaire pour bundler (rassembler) les modules JavaScript et les ressources statiques ?",
+    "options": [
+      "Gulp",
+      "Grunt",
+      "Webpack",
+      "Sass"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Webpack est un bundler de modules très utilisé pour les applications front-end modernes."
+  },
+  {
+    "id": 29,
+    "question": "En programmation orientée objet, qu'est-ce que l'encapsulation ?",
+    "options": [
+      "La capacité d'un objet à prendre plusieurs formes",
+      "Le fait de cacher l'état interne d'un objet et de restreindre l'accès direct aux données",
+      "L'héritage des propriétés d'une classe parent",
+      "La création d'instances d'une classe"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "L'encapsulation protège les données internes de l'objet, qui ne peuvent être modifiées que via des méthodes publiques spécifiques (getters/setters)."
+  },
+  {
+    "id": 30,
+    "question": "Quel langage utilise principalement le concept de 'closures' (fermetures) comme fonctionnalité clé ?",
+    "options": [
+      "C",
+      "PHP",
+      "JavaScript",
+      "Assembly"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Une closure en JavaScript est une fonction qui se souvient de l'environnement (scope lexical) dans lequel elle a été créée."
+  },
+  {
+    "id": 31,
+    "question": "Quelle balise HTML5 permet de lire un fichier audio nativement ?",
+    "options": [
+      "<music>",
+      "<sound>",
+      "<audio>",
+      "<mp3>"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "La balise `<audio>` a été introduite avec HTML5 pour intégrer du contenu audio sans plugins externes."
+  },
+  {
+    "id": 32,
+    "question": "Quel framework backend Python est connu pour inclure un panneau d'administration 'batteries-included' (inclus) ?",
+    "options": [
+      "Flask",
+      "Django",
+      "Pyramid",
+      "FastAPI"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Django est un framework web de haut niveau qui encourage le développement rapide et propre, et inclut beaucoup de fonctionnalités par défaut."
+  },
+  {
+    "id": 33,
+    "question": "Qu'est-ce que le 'responsive design' en développement web ?",
+    "options": [
+      "Un design qui répond rapidement aux clics de l'utilisateur",
+      "Une approche de conception qui rend les pages web belles sur tous les appareils (ordinateurs de bureau, tablettes, téléphones)",
+      "Un design qui utilise uniquement des couleurs vives",
+      "Un design basé sur l'IA"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Le responsive design utilise les médias queries et les grilles fluides pour s'adapter à la taille de l'écran."
+  },
+  {
+    "id": 34,
+    "question": "Quelle propriété CSS est utilisée pour contrôler l'espace entre le contenu d'un élément et sa bordure ?",
+    "options": [
+      "margin",
+      "border",
+      "spacing",
+      "padding"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "Le padding (remplissage interne) définit l'espace à l'intérieur de la bordure de l'élément."
+  },
+  {
+    "id": 35,
+    "question": "Quel type de test vérifie qu'une fonctionnalité spécifique de l'application fonctionne correctement de manière isolée ?",
+    "options": [
+      "Test d'intégration",
+      "Test unitaire",
+      "Test de performance",
+      "Test de bout en bout (E2E)"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Les tests unitaires vérifient chaque unité ou composant du logiciel (souvent une fonction ou une méthode) de manière indépendante."
+  },
+  {
+    "id": 36,
+    "question": "Quel terme décrit le processus de traduction du code source écrit par un humain en langage machine exécutable par un ordinateur ?",
+    "options": [
+      "Interprétation",
+      "Débogage",
+      "Compilation",
+      "Minification"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "La compilation est le processus par lequel le code source est transformé en un fichier exécutable."
+  },
+  {
+    "id": 37,
+    "question": "Quelle est la principale différence entre 'let' et 'var' pour déclarer des variables en JavaScript ?",
+    "options": [
+      "'let' permet de réassigner la variable, 'var' non.",
+      "'var' est 'block-scoped' (portée de bloc), 'let' est 'function-scoped' (portée de fonction).",
+      "'let' est 'block-scoped', 'var' est 'function-scoped'.",
+      "Il n'y a aucune différence."
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Les variables déclarées avec `let` sont limitées au bloc où elles sont définies ({...}), tandis que `var` a une portée de fonction ou globale."
+  },
+  {
+    "id": 38,
+    "question": "Quel outil est utilisé pour gérer les dépendances en PHP ?",
+    "options": [
+      "npm",
+      "pip",
+      "Gem",
+      "Composer"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "Composer est l'outil de gestion des dépendances standard pour PHP."
+  },
+  {
+    "id": 39,
+    "question": "Quel langage de balisage est utilisé pour structurer les données dans de nombreux fichiers de configuration et réponses d'API, souvent considéré comme plus verbeux que JSON ?",
+    "options": [
+      "JSON",
+      "CSS",
+      "YAML",
+      "XML"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "XML (eXtensible Markup Language) utilise des balises pour structurer les données, et est souvent plus détaillé que JSON."
+  },
+  {
+    "id": 40,
+    "question": "Dans le contexte des bases de données relationnelles, qu'est-ce qu'une 'jointure' (JOIN) ?",
+    "options": [
+      "Une opération pour supprimer des données",
+      "Une opération pour combiner des lignes de deux ou plusieurs tables liées par une colonne commune",
+      "Une méthode pour créer une nouvelle table",
+      "Une fonction pour calculer la somme des valeurs"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Les jointures SQL permettent de lier des données stockées dans différentes tables pour former un ensemble de résultats cohérent."
+  },
+  {
+    "id": 41,
+    "question": "Quelle librairie JavaScript est la plus populaire pour la création d'interfaces utilisateur déclaratives basées sur des composants ?",
+    "options": [
+      "Angular",
+      "Vue.js",
+      "Svelte",
+      "React"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "React (ou React.js) est une bibliothèque front-end gratuite et open-source développée par Meta (anciennement Facebook) pour construire des interfaces utilisateur."
+  },
+  {
+    "id": 42,
+    "question": "Quel protocole est utilisé par les navigateurs web pour communiquer avec les serveurs web sur Internet ?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "HTTP/HTTPS",
+      "TCP"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "HTTP (Hypertext Transfer Protocol) et son homologue sécurisé HTTPS sont les fondements de la communication de données sur le Web."
+  },
+  {
+    "id": 43,
+    "question": "Qu'est-ce qu'une 'pull request' (demande d'extraction) dans Git/GitHub ?",
+    "options": [
+      "Une demande pour supprimer du code du dépôt principal",
+      "Une demande pour fusionner les changements d'une branche dans une autre (souvent 'main')",
+      "Une commande pour télécharger le dépôt entier",
+      "Un type d'erreur de compilation"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Les Pull Requests sont un moyen standard de réviser le code et de discuter des changements avant de les intégrer dans la branche principale du projet."
+  }
+]

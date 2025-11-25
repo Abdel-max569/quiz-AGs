@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Port+Lligat+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    
+    
+
+}
+
+.container {
+    background-color: transparent;
+    padding: 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5); /* Bordure floue */
+    width: 600px;
+
+
+
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-color: 5px solid red;
+    /* background-color: aquamarine; */
+    padding: 10px;
+}
+
+.btn {
+    background-color: aqua;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.question {
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.proposition {
+    /* background-color: aqua; */
+    padding: 20px 0;
+}
+
+.propo {
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: antiquewhite;
+
+}
+
+.propo:hover {
+    background-color: rgb(58, 131, 221);
+    color: aliceblue;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin:0 2px ;
+}
+
+.passer{
+    background-color: blue;
+    color: aliceblue;
+    transition: 0.5s;
+}
+.nbre{
+    background-color: rgb(181, 201, 201);
+    padding: 10px;
+    border-radius: 10px;
+}
+.passer:hover{
+    background-color:rgb(16, 16, 83);
+   
+}
+
+.explication{
+    background-color: bisque;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
