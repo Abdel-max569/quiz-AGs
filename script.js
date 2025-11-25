@@ -22,20 +22,17 @@ function chargerQuestion(index) {
     question.textContent = currentQ.question;
     explication.textContent = ""; 
 
-    // Assigner le texte aux boutons
     propositions.forEach((prop, i) => {
         prop.textContent = currentQ.options[i];
         prop.style.background = "#47acb9ff"; 
-        
+        prop.style.pointerEvents = "auto"; 
     });
 }
 
-// Fonction qui gère la réponse pour LA question actuellement affichée
 function checkResponse(checkIndex) {
     const currentQ = list_question[indexQuestionActuelle];
     const correctIndex = currentQ.correctAnswerIndex;
 
-    // Désactiver les clics après la première réponse
     propositions.forEach(prop => prop.style.pointerEvents = "none");
 
     if (checkIndex === correctIndex) {
@@ -47,15 +44,13 @@ function checkResponse(checkIndex) {
 
     explication.textContent = currentQ.explication;
 
-    // Optionnel: Passer à la question suivante après 3 secondes
     setTimeout(() => {
         indexQuestionActuelle++;
         chargerQuestion(indexQuestionActuelle);
-    }, 3000); 
+    }, 5000); 
 }
 
 
-// Attacher les écouteurs d'événements UNE seule fois, à l'extérieur de la boucle de chargement
 propositions.forEach((propo, index) => {
     propo.addEventListener("click", () => {
         checkResponse(index);
