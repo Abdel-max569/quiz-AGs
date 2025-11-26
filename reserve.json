@@ -1116,3 +1116,52 @@
     "explication": "Des outils comme `npm audit` ou `composer audit` analysent le fichier de dépendances pour trouver des vulnérabilités connues dans les paquets utilisés."
   }
 ]
+
+
+
+//----------------SONG----------------------
+// const sonVictoire = new Audio('victoire.mp3');
+// sonVictoire.volume = 0.8;
+
+// const sonDefaite = new Audio('defaite.wav');
+// sonDefaite.volume = 0.6;
+
+// function victoire1() {
+//     try {
+//         sonVictoire.currentTime = 0; 
+//         sonVictoire.play();
+//     } catch (error) {
+//         console.error("Erreur lors de la lecture du son de victoire:", error);
+//     }
+// }
+// function defaite() {
+//     sonDefaite.play();
+// }
+
+//----------------END SONG-----------
+
+
+
+
+//-------------------------TIME-----------------------
+// const timerElement = document.querySelector(".compteur");
+
+// function demarrerCompteARebours(secondes) {
+//     const miseAJour = () => {
+//         if (secondes > 0) {
+//             timerElement.textContent = secondes + " s";
+
+//             secondes--;
+
+//             setTimeout(miseAJour, 1000);
+//         } else {
+//             indexQuestionActuelle++;
+//             chargerQuestion(indexQuestionActuelle);
+
+//         }
+//     };
+//     miseAJour();
+// }
+
+//-------------------------TIME-----------------------
+

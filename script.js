@@ -86,26 +86,7 @@ card_js.addEventListener("click", () => {
 });
 
 
-//----------------SONG----------------------
-// const sonVictoire = new Audio('victoire.mp3');
-// sonVictoire.volume = 0.8;
 
-// const sonDefaite = new Audio('defaite.wav');
-// sonDefaite.volume = 0.6;
-
-// function victoire1() {
-//     try {
-//         sonVictoire.currentTime = 0; 
-//         sonVictoire.play();
-//     } catch (error) {
-//         console.error("Erreur lors de la lecture du son de victoire:", error);
-//     }
-// }
-// function defaite() {
-//     sonDefaite.play();
-// }
-
-//----------------END SONG-----------
 
 
 
@@ -125,28 +106,6 @@ recommencer.addEventListener("click", ()=>{
 
 
 
-
-//-------------------------TIME-----------------------
-// const timerElement = document.querySelector(".compteur");
-
-// function demarrerCompteARebours(secondes) {
-//     const miseAJour = () => {
-//         if (secondes > 0) {
-//             timerElement.textContent = secondes + " s";
-
-//             secondes--;
-
-//             setTimeout(miseAJour, 1000);
-//         } else {
-//             indexQuestionActuelle++;
-//             chargerQuestion(indexQuestionActuelle);
-
-//         }
-//     };
-//     miseAJour();
-// }
-
-//-------------------------TIME-----------------------
 
 
 
@@ -192,7 +151,7 @@ function checkResponse(checkIndex) {
         propositions[checkIndex].style.background = "green";
         victoire++
         //console.log(victoire);
-        victoire1()
+        
     } else {
         propositions[checkIndex].style.background = "red";
         propositions[correctIndex].style.background = "green";
