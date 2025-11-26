@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "Quelle est la syntaxe correcte pour lier un fichier JavaScript externe nommé 'script.js' ?",
+    "options": [
+      "<script src='script.js'>",
+      "<script href='script.js'>",
+      "<script name='script.js'>",
+      "<!-- include script.js -->"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "L'attribut `src` est utilisé dans la balise `<script>` pour spécifier le chemin du fichier source."
+  },
+  {
+    "id": 2,
+    "question": "Quel mot clé est utilisé pour déclarer une variable dont la valeur ne changera pas (ES6+) ?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "static"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le mot clé `const` crée une référence en lecture seule à une valeur. La valeur ne peut pas être modifiée par réaffectation."
+  },
+  {
+    "id": 3,
+    "question": "Comment insérer un commentaire sur une seule ligne en JavaScript ?",
+    "options": [
+      "// Ceci est un commentaire",
+      "<!-- Ceci est un commentaire -->",
+      "# Ceci est un commentaire",
+      "/* Ceci est un commentaire */"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "Les doubles barres obliques (`//`) sont utilisées pour les commentaires sur une seule ligne. `/* */` est utilisé pour les blocs de commentaires."
+  },
+  {
+    "id": 4,
+    "question": "Quel est le résultat de `print(10 % 3);` en JavaScript ?",
+    "options": [
+      "3.333",
+      "3",
+      "1",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "L'opérateur modulo (`%`) renvoie le reste d'une division entière."
+  },
+  {
+    "id": 5,
+    "question": "Quelle est la différence entre `let` et `var` ?",
+    "options": [
+      "`let` a une portée de bloc (`block scope`), `var` a une portée de fonction (`function scope`).",
+      "`var` a une portée de bloc, `let` a une portée de fonction.",
+      "`let` est utilisé pour les nombres, `var` pour les chaînes.",
+      "Il n'y a aucune différence."
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "Depuis ES6, `let` et `const` sont préférés car ils résolvent les problèmes de portée de `var`."
+  },
+  {
+    "id": 6,
+    "question": "Quel opérateur vérifie la valeur ET le type de données ?",
+    "options": [
+      "==",
+      "<>",
+      "===",
+      "!="
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "L'opérateur d'égalité stricte (`===`) évite les conversions de type automatiques (type coercion) de JavaScript."
+  },
+  {
+    "id": 7,
+    "question": "Quelle fonction est utilisée pour afficher des données dans la console du navigateur ?",
+    "options": [
+      "alert()",
+      "document.write()",
+      "console.log()",
+      "print()"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "`console.log()` est l'outil de débogage le plus courant en JS."
+  },
+  {
+    "id": 8,
+    "question": "Quel est le résultat de `'10' + 2` en JavaScript ?",
+    "options": [
+      "12",
+      "'102'",
+      "102",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "L'opérateur `+` effectue une concaténation si l'un des opérandes est une chaîne de caractères. Le 2 est converti en chaîne."
+  },
+  {
+    "id": 9,
+    "question": "Comment déclarer un tableau (Array) vide en JavaScript ?",
+    "options": [
+      "let arr = {};",
+      "let arr = new Array();",
+      "let arr = [];",
+      "Les deux b et c sont corrects"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "La notation littérale `[]` est la méthode la plus courante et recommandée."
+  },
+  {
+    "id": 10,
+    "question": "Quelle méthode ajoute un élément à la fin d'un tableau ?",
+    "options": [
+      "push()",
+      "append()",
+      "insert()",
+      "add()"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "La méthode `push()` modifie le tableau original en ajoutant un ou plusieurs éléments à la fin."
+  },
+  {
+    "id": 11,
+    "question": "Quelle est la sortie de `typeof []` ?",
+    "options": [
+      "'array'",
+      "'object'",
+      "'list'",
+      "'undefined'"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Bien que ce soit un tableau, l'opérateur `typeof` en JavaScript renvoie `'object'` pour les tableaux, ce qui est une bizarrerie historique du langage."
+  },
+  {
+    "id": 12,
+    "question": "Comment définir une fonction nommée 'saluer' qui prend un argument 'nom' ?",
+    "options": [
+      "def saluer(nom) {}",
+      "function saluer(nom) {}",
+      "saluer = function(nom) {}",
+      "Les deux b et c sont corrects"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "Les deux syntaxes sont valides pour définir une fonction nommée."
+  },
+  {
+    "id": 13,
+    "question": "Quel est le résultat de `print(Boolean(0))` ?",
+    "options": [
+      "True",
+      "False",
+      "0",
+      "undefined"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "En JavaScript, `0`, `null`, `undefined`, `''` (chaîne vide), et `NaN` sont considérés comme falsy (faux) dans un contexte booléen."
+  },
+  {
+    "id": 14,
+    "question": "Quel objet global est le point d'entrée principal pour interagir avec le HTML et le CSS (côté navigateur) ?",
+    "options": [
+      "Server",
+      "Window",
+      "Document",
+      "HTML"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le `Document Object Model` (DOM), accessible via l'objet `document`, est l'API pour manipuler le contenu de la page web."
+  },
+  {
+    "id": 15,
+    "question": "Comment sélectionner un élément HTML par son ID 'titrePrincipal' ?",
+    "options": [
+      "document.getElementById('titrePrincipal')",
+      "document.querySelector('#titrePrincipal')",
+      "document.getElementsByID('titrePrincipal')",
+      "Les deux a et b sont corrects"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "`getElementById` est une méthode classique, `querySelector` est une méthode ES6+ plus flexible utilisant des sélecteurs CSS."
+  },
+  {
+    "id": 16,
+    "question": "Quelle est la sortie de `'javascript'.toUpperCase()` ?",
+    "options": [
+      "'javascript'",
+      "'JAVASCRIPT'",
+      "'Javascript'",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "La méthode `toUpperCase()` convertit tous les caractères d'une chaîne en majuscules."
+  },
+  {
+    "id": 17,
+    "question": "Quel mot clé est utilisé pour arrêter immédiatement une boucle (`for`, `while`) ?",
+    "options": [
+      "stop",
+      "end",
+      "break",
+      "exit"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le mot clé `break` met fin à la boucle en cours d'exécution."
+  },
+  {
+    "id": 18,
+    "question": "Quelle est la syntaxe correcte pour une fonction fléchée (arrow function) simple qui renvoie `a + b` ?",
+    "options": [
+      "let sum = (a, b) -> a + b;",
+      "let sum = (a, b) => {a + b};",
+      "let sum = function(a, b) => a + b;",
+      "let sum = (a, b) => a + b;"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "Les fonctions fléchées (ES6+) offrent une syntaxe concise. Si le corps de la fonction est une seule expression, le `return` implicite est appliqué."
+  },
+  {
+    "id": 19,
+    "question": "Que représente `this` dans la plupart des contextes de fonction d'objet en JS moderne ?",
+    "options": [
+      "La fonction elle-même.",
+      "L'objet global (Window/Global).",
+      "L'objet qui possède la méthode en cours d'exécution.",
+      "`undefined`."
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "`this` est contextuel et fait généralement référence à l'objet sur lequel la méthode est appelée. Attention aux fonctions fléchées qui capturent le `this` lexical."
+  },
+  {
+    "id": 20,
+    "question": "Quelle est la sortie de `console.log(typeof null)` ?",
+    "options": [
+      "'null'",
+      "'undefined'",
+      "'object'",
+      "'number'"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "C'est un bug ou une bizarrerie très célèbre de JavaScript : `typeof null` renvoie `'object'`."
+  },
+  {
+    "id": 21,
+    "question": "Quel est le nom du gestionnaire de paquets standard pour l'écosystème JavaScript/Node.js ?",
+    "options": [
+      "pip",
+      "Composer",
+      "npm (Node Package Manager)",
+      "yarn"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "`npm` est l'outil le plus utilisé pour installer et gérer les dépendances des projets JS/Node."
+  },
+  {
+    "id": 22,
+    "question": "Comment convertir la chaîne `'100'` en nombre entier en JavaScript ?",
+    "options": [
+      "parseInt('100')",
+      "Number('100')",
+      "Avec l'opérateur `+` unaire (`+'100'`)",
+      "Toutes les options sont correctes"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "JS offre plusieurs façons de convertir des types, y compris `parseInt`, `Number()`, et le raccourci `+` unaire."
+  },
+  {
+    "id": 23,
+    "question": "Quel événement se déclenche lorsqu'un utilisateur clique sur un élément HTML ?",
+    "options": [
+      "onchange",
+      "onmouseclick",
+      "onclick",
+      "onhover"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le gestionnaire d'événements `onclick` ou l'écouteur d'événements 'click' est utilisé pour capturer les clics de souris."
+  },
+  {
+    "id": 24,
+    "question": "Quelle méthode permet de supprimer le dernier élément d'un tableau ET de le retourner ?",
+    "options": [
+      "shift()",
+      "splice()",
+      "pop()",
+      "remove()"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "La méthode `pop()` modifie le tableau sur place et renvoie l'élément supprimé, ce qui est utile pour les piles LIFO."
+  },
+  {
+    "id": 25,
+    "question": "Quelle est la sortie de `[1, 2, 3] + [4, 5, 6]` ?",
+    "options": [
+      "[1, 2, 3, 4, 5, 6]",
+      "[5, 7, 9]",
+      "'1,2,34,5,6'",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "L'opérateur `+` avec des tableaux essaie de les convertir en chaînes avant la concaténation, donnant un résultat surprenant."
+  },
+  {
+    "id": 26,
+    "question": "Quel est le moyen moderne d'itérer sur les éléments d'un tableau sans utiliser d'index (ES6+) ?",
+    "options": [
+      "for (i in array)",
+      "array.forEach()",
+      "for (const item of array)",
+      "Les deux b et c sont corrects"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "`forEach()` est une méthode de tableau standard, et `for...of` est une syntaxe de boucle moderne et propre pour les itérables."
+  },
+  {
+    "id": 27,
+    "question": "Qu'est-ce qu'une 'closure' (fermeture) en JavaScript ?",
+    "options": [
+      "Une erreur de syntaxe lorsqu'une fonction ne se termine pas.",
+      "Une fonction qui a accès aux variables de sa portée externe (scope parent) même après que cette portée a été fermée.",
+      "Un moyen de cacher les variables dans un objet.",
+      "Une fonction qui se ferme automatiquement après une seule exécution."
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Les closures sont un concept fondamental de JavaScript, essentiel pour les modules, les données privées et les rappels asynchrones."
+  },
+  {
+    "id": 28,
+    "question": "Quelle est la sortie de `print(NaN === NaN)` ?",
+    "options": [
+      "True",
+      "False",
+      "undefined",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Par définition en JavaScript, 'Not A Number' (NaN) n'est jamais égal à quoi que ce soit, y compris lui-même. Utilisez `isNaN()` pour vérifier si une valeur est NaN."
+  },
+  {
+    "id": 29,
+    "question": "Quelle est l'API utilisée pour faire des requêtes HTTP asynchrones (AJAX) en JS moderne ?",
+    "options": [
+      "XMLHttpRequest (XHR)",
+      "fetch() API",
+      "jQuery.ajax()",
+      "http_request()"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "La fonction `fetch()` basée sur les Promesses est désormais l'approche standard et la plus propre pour les requêtes réseau."
+  },
+  {
+    "id": 30,
+    "question": "Quel est le résultat de `print(typeof undefined)` ?",
+    "options": [
+      "'null'",
+      "'undefined'",
+      "'object'",
+      "'string'"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "`undefined` est un type en soi en JavaScript, ce qui est confirmé par `typeof`."
+  },
+  {
+    "id": 31,
+    "question": "Comment créer un objet avec deux propriétés `a: 1` et `b: 2` ?",
+    "options": [
+      "let obj = {a: 1, b: 2};",
+      "let obj = new Object(); obj.a = 1; obj.b = 2;",
+      "Les deux a et b sont corrects.",
+      "let obj = (a: 1, b: 2);"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "La notation littérale `{}` est la plus commune, mais le constructeur `new Object()` fonctionne aussi."
+  },
+  {
+    "id": 32,
+    "question": "Quel est l'opérateur de coalescence des nuls (nullish coalescing operator) ES2020 ?",
+    "options": [
+      "??",
+      "||",
+      "&&",
+      "!="
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "L'opérateur `??` fournit une valeur par défaut seulement si la variable est `null` ou `undefined`, contrairement à `||` qui le fait pour toutes les valeurs falsy."
+  },
+  {
+    "id": 33,
+    "question": "Quel est le nom du moteur JavaScript utilisé par Google Chrome et Node.js ?",
+    "options": [
+      "SpiderMonkey",
+      "JavaScriptCore",
+      "Chakra",
+      "V8"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "Le moteur V8 de Google est réputé pour ses performances et est à la base de nombreux environnements d'exécution JS populaires."
+  },
+  {
+    "id": 34,
+    "question": "Quelle est la sortie de `print(2 + '2')` ?",
+    "options": [
+      "4",
+      "'22'",
+      "Erreur",
+      "'4'"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Encore une fois, la concaténation prend le pas sur l'addition lorsque des types différents sont combinés avec `+`."
+  },
+  {
+    "id": 35,
+    "question": "Comment empêcher le comportement par défaut d'un formulaire (par exemple, l'empêcher de se soumettre réellement) dans un gestionnaire d'événements ?",
+    "options": [
+      "event.stopDefault()",
+      "event.preventDefault()",
+      "event.cancelAction()",
+      "return false"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "`event.preventDefault()` est la méthode standard et recommandée pour arrêter le comportement natif du navigateur associé à un événement."
+  },
+  {
+    "id": 36,
+    "question": "Quelle est la fonction utilisée pour exécuter du code après un délai spécifié ?",
+    "options": [
+      "setTimeout()",
+      "setInterval()",
+      "runAfter()",
+      "wait()"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "`setTimeout(function, delay_in_ms)` exécute la fonction une seule fois après le délai."
+  },
+  {
+    "id": 37,
+    "question": "Quel est le rôle de l'opérateur spread (`...`) ?",
+    "options": [
+      "De commenter de grandes sections de code.",
+      "De dupliquer une fonction pour éviter la réutilisation.",
+      "De décomposer un itérable (tableau, chaîne) en éléments individuels (par exemple, pour fusionner des tableaux ou copier des objets).",
+      "D'effectuer des calculs mathématiques complexes."
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "L'opérateur spread est extrêmement utile en ES6+ pour des opérations comme `[...arr1, ...arr2]`."
+  },
+  {
+    "id": 38,
+    "question": "Quelle est la sortie de `print([10, 20, 30].indexOf(20))` ?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "-1"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "`indexOf()` renvoie l'index de la première occurrence de l'élément (ici, 20 est à l'index 1), ou -1 s'il est absent."
+  },
+  {
+    "id": 39,
+    "question": "Que signifie Asynchrone en JavaScript ?",
+    "options": [
+      "Le code s'exécute toujours dans l'ordre exact où il est écrit, ligne par ligne.",
+      "Le code est exécuté par le serveur et non par le client.",
+      "Certaines opérations (E/S, requêtes réseau) sont exécutées en arrière-plan sans bloquer l'exécution du reste du code.",
+      "C'est une erreur de syntaxe introduite dans ES6."
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "L'asynchronisme (géré par les callbacks, Promises et `async/await`) est essentiel pour que JavaScript, qui est 'single-threaded', puisse gérer des opérations longues sans geler l'interface utilisateur."
+  },
+  {
+    "id": 40,
+    "question": "Quelle est la sortie de `print(Math.floor(3.9))` ?",
+    "options": [
+      "4",
+      "3",
+      "3.5",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "`Math.floor()` arrondit un nombre vers le bas à l'entier le plus proche."
+  },
+  {
+    "id": 41,
+    "question": "Comment créer un nombre aléatoire entre 0 (inclus) et 1 (exclus) ?",
+    "options": [
+      "Math.random(1)",
+      "Math.random()",
+      "Math.rand()",
+      "random()"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "`Math.random()` est la fonction standard pour générer un flottant pseudo-aléatoire dans cet intervalle."
+  },
+  {
+    "id": 42,
+    "question": "Quel est le rôle de `localStorage` ?",
+    "options": [
+      "Stocker des données de session temporaires qui expirent à la fermeture de l'onglet.",
+      "Stocker des données de manière persistante dans le navigateur du client, sans date d'expiration.",
+      "Stocker des données sensibles sur le serveur web.",
+      "Stocker le code source JavaScript."
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "`localStorage` est idéal pour stocker des préférences utilisateur ou des jetons d'authentification persistants."
+  },
+  {
+    "id": 43,
+    "question": "Quelle est la sortie de `print([1, 2, 3].map(x => x * 2))` ?",
+    "options": [
+      "[1, 2, 3, 1, 2, 3]",
+      "[2, 4, 6]",
+      "[1, 4, 9]",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "La méthode `map()` crée un nouveau tableau en appliquant une fonction à chaque élément de l'original."
+  },
+  {
+    "id": 44,
+    "question": "Quel mot clé permet de gérer une erreur dans un bloc `try...catch` ?",
+    "options": [
+      "throw",
+      "error",
+      "catch",
+      "finally"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Si le code dans le bloc `try` échoue, l'exécution passe au bloc `catch` pour gérer l'exception."
+  },
+  {
+    "id": 45,
+    "question": "Quelle est la valeur par défaut d'une variable non initialisée en JavaScript ?",
+    "options": [
+      "null",
+      "0",
+      "'' (chaîne vide)",
+      "undefined"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "Une variable déclarée avec `let` ou `var` mais sans valeur attribuée a automatiquement la valeur `undefined`."
+  },
+  {
+    "id": 46,
+    "question": "Quel est le nom complet de l'acronyme ES6 ?",
+    "options": [
+      "ECMA Standard 6",
+      "Efficient Scripting Version 6",
+      "ECMAScript 2015",
+      "European Scripting 6"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "ES6 est le nom familier de la version majeure de la norme JavaScript publiée en 2015."
+  },
+  {
+    "id": 47,
+    "question": "Quel est le moyen le plus courant d'attendre la fin d'une Promesse (ES2017+) ?",
+    "options": [
+      "La méthode `.then()`",
+      "Les générateurs (`yield`)",
+      "Les mots clés `async` et `await`",
+      "Utiliser `setTimeout()`"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Alors que `.then()` fonctionne toujours, `async/await` offre une syntaxe plus propre et plus facile à lire pour gérer le code asynchrone de manière séquentielle."
+  },
+  {
+    "id": 48,
+    "question": "Quel opérateur est utilisé pour vérifier si un objet est une instance d'une certaine classe ou d'un certain type ?",
+    "options": [
+      "is()",
+      "typeof",
+      "instanceof",
+      "extends"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "L'opérateur `instanceof` est utilisé pour des vérifications de type d'objet plus précises que `typeof`."
+  },
+  {
+    "id": 49,
+    "question": "Comment convertir un tableau en chaîne de caractères, en séparant les éléments par une virgule et un espace (', ') ?",
+    "options": [
+      "array.toString()",
+      "array.join(', ')",
+      "array.splice(',')",
+      "array.concat(', ')"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "La méthode `join()` prend un séparateur en argument et le place entre chaque élément lors de la conversion en chaîne."
+  },
+  {
+    "id": 50,
+    "question": "Que se passe-t-il si vous essayez d'accéder à une variable déclarée avec `let` ou `const` avant sa déclaration ?",
+    "options": [
+      "Cela renvoie `undefined` (hoisting).",
+      "Cela renvoie `null`.",
+      "Cela provoque une `ReferenceError`.",
+      "Le code PHP ne se compilera pas."
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Cela se produit en raison de la 'Temporal Dead Zone' (TDZ). Contrairement à `var`, `let` et `const` ne sont pas utilisables avant leur initialisation."
+  }
+]

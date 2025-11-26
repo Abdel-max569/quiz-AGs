@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "Quel mot clé est utilisé pour définir une fonction en Python ?",
+    "options": [
+      "function",
+      "func",
+      "def",
+      "define"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le mot clé `def` est utilisé pour définir des fonctions ou des méthodes en Python."
+  },
+  {
+    "id": 2,
+    "question": "Comment insérer un commentaire sur une seule ligne en Python ?",
+    "options": [
+      "// Ceci est un commentaire",
+      "/* Ceci est un commentaire */",
+      "# Ceci est un commentaire",
+      "<!-- Ceci est un commentaire -->"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le symbole `#` est utilisé pour les commentaires sur une seule ligne en Python."
+  },
+  {
+    "id": 3,
+    "question": "Quelle est la sortie de `print(type([]))` en Python ?",
+    "options": [
+      "<class 'tuple'>",
+      "<class 'dict'>",
+      "<class 'list'>",
+      "<class 'array'>"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "`[]` représente une liste vide en Python."
+  },
+  {
+    "id": 4,
+    "question": "Quel module standard est utilisé pour les expressions régulières en Python ?",
+    "options": [
+      "regex",
+      "regexp",
+      "re",
+      "pattern"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le module `re` fournit des opérations de correspondance d'expressions régulières."
+  },
+  {
+    "id": 5,
+    "question": "Quelle est la méthode correcte pour créer une boucle `for` qui parcourt les nombres de 0 à 5 ?",
+    "options": [
+      "for i in range(6):",
+      "for i in range(0, 5):",
+      "for i in range(5):",
+      "for i from 0 to 5:"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "`range(6)` génère des nombres de 0 jusqu'à (mais non inclus) 6, soit 0, 1, 2, 3, 4, 5."
+  },
+  {
+    "id": 6,
+    "question": "Comment importer uniquement la fonction `sqrt` du module `math` ?",
+    "options": [
+      "import math.sqrt",
+      "from math import sqrt",
+      "require math.sqrt",
+      "use math.sqrt"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "La syntaxe `from ... import ...` permet d'importer des éléments spécifiques d'un module."
+  },
+  {
+    "id": 7,
+    "question": "Quel est le résultat de `10 // 3` en Python ?",
+    "options": [
+      "3.33",
+      "3",
+      "4",
+      "1"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "`//` est l'opérateur de division entière (floor division), qui arrondit le résultat au nombre entier inférieur."
+  },
+  {
+    "id": 8,
+    "question": "Quelle structure de données Python est ordonnée et immuable (non modifiable) ?",
+    "options": [
+      "Liste (List)",
+      "Dictionnaire (Dictionary)",
+      "Ensemble (Set)",
+      "Tuple"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "Les tuples sont similaires aux listes mais leurs éléments ne peuvent pas être modifiés après création."
+  },
+  {
+    "id": 9,
+    "question": "Quelle est la sortie de `'hello'[1]` ?",
+    "options": [
+      "'h'",
+      "'e'",
+      "'l'",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "L'indexation en Python commence à 0. L'index 1 correspond au deuxième caractère, 'e'."
+  },
+  {
+    "id": 10,
+    "question": "Quel mot clé est utilisé pour gérer les exceptions (erreurs) en Python ?",
+    "options": [
+      "try/catch",
+      "try/except",
+      "try/error",
+      "on error"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Python utilise les blocs `try` et `except` pour la gestion des erreurs."
+  },
+  {
+    "id": 11,
+    "question": "Comment vérifier si une variable `x` est de type entier (`int`) ?",
+    "options": [
+      "type(x) == int",
+      "isinstance(x, int)",
+      "x is int",
+      "x.type() == int"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "`isinstance()` est la méthode recommandée pour vérifier le type d'un objet, car elle gère également l'héritage."
+  },
+  {
+    "id": 12,
+    "question": "Quel opérateur est utilisé pour la puissance (exponentiation) en Python ?",
+    "options": [
+      "^",
+      "**",
+      "pow()",
+      "%"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "`**` calcule la puissance (par exemple, `3 ** 2` donne 9)."
+  },
+  {
+    "id": 13,
+    "question": "Qu'est-ce qu'un 'decorator' en Python ?",
+    "options": [
+      "Une fonction qui dessine l'interface utilisateur",
+      "Une fonction qui modifie le comportement d'une autre fonction ou classe",
+      "Un type spécial de variable constante",
+      "Une méthode pour commenter le code avec style"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Les décorateurs (`@decorator_name`) sont un sucre syntaxique pour envelopper une fonction ou une classe."
+  },
+  {
+    "id": 14,
+    "question": "Quelle est la sortie de `len(['pomme', 'banane', 'cerise'])` ?",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "La fonction `len()` renvoie le nombre d'éléments dans la liste."
+  },
+  {
+    "id": 15,
+    "question": "Quel mot clé met fin immédiatement à une boucle (while ou for) ?",
+    "options": [
+      "stop",
+      "end",
+      "break",
+      "exit"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le mot clé `break` permet de sortir de la boucle de manière prématurée."
+  },
+  {
+    "id": 16,
+    "question": "Quel est le résultat de `'1' + '2'` en Python ?",
+    "options": [
+      "3",
+      "'3'",
+      "'12'",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "L'opérateur `+` concatène les chaînes de caractères, il ne fait pas d'addition numérique ici."
+  },
+  {
+    "id": 17,
+    "question": "Comment initialiser un dictionnaire vide en Python ?",
+    "options": [
+      "d = {}",
+      "d = dict()",
+      "d = new Dictionary()",
+      "Les deux a et b sont corrects"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "Les accolades `{}` ou le constructeur `dict()` créent un dictionnaire vide."
+  },
+  {
+    "id": 18,
+    "question": "Quelle méthode permet d'ajouter un élément à la fin d'une liste nommée `ma_liste` ?",
+    "options": [
+      "ma_liste.add(element)",
+      "ma_liste.insert(element)",
+      "ma_liste.push(element)",
+      "ma_liste.append(element)"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "La méthode `append()` ajoute un élément à la fin de la liste."
+  },
+  {
+    "id": 19,
+    "question": "Quel est le PEP (Python Enhancement Proposal) qui guide le style de code Python ?",
+    "options": [
+      "PEP 1",
+      "PEP 8",
+      "PEP 20",
+      "PEP 257"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Le PEP 8 est le guide de style de facto pour le code Python."
+  },
+  {
+    "id": 20,
+    "question": "Quelle est la sortie de `print(bool(0))` ?",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "En Python, 0 (zéro) est considéré comme `False` dans un contexte booléen."
+  },
+  {
+    "id": 21,
+    "question": "Quel mot clé est utilisé pour continuer à l'itération suivante d'une boucle ?",
+    "options": [
+      "next",
+      "skip",
+      "continue",
+      "pass"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le mot clé `continue` saute le reste du bloc de code de l'itération actuelle et passe à la suivante."
+  },
+  {
+    "id": 22,
+    "question": "Quelle est la sortie de `print('Py' + 'thon')` ?",
+    "options": [
+      "'Python'",
+      "'Py thon'",
+      "'P y t h o n'",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "L'opérateur `+` concatène les deux chaînes sans espace."
+  },
+  {
+    "id": 23,
+    "question": "Dans une fonction, quel mot clé est utilisé pour renvoyer une valeur ?",
+    "options": [
+      "send",
+      "produce",
+      "return",
+      "yield"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le mot clé `return` met fin à l'exécution de la fonction et renvoie une valeur au code appelant."
+  },
+  {
+    "id": 24,
+    "question": "Comment accédez-vous à la valeur 'b' dans ce dictionnaire : `d = {'a': 1, 'b': 2}` ?",
+    "options": [
+      "d[1]",
+      "d('b')",
+      "d['b']",
+      "d.get('1')"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Les valeurs des dictionnaires sont accédées en utilisant leurs clés entre crochets."
+  },
+  {
+    "id": 25,
+    "question": "Quel est l'objectif principal du gestionnaire de paquets `pip` ?",
+    "options": [
+      "Installer des paquets C++",
+      "Gérer les environnements virtuels",
+      "Installer et gérer des bibliothèques/paquets Python",
+      "Compiler du code Python"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "`pip` est l'outil standard pour installer des paquets depuis PyPI (Python Package Index)."
+  },
+  {
+    "id": 26,
+    "question": "Quelle est la sortie de `print(len('Python'))` ?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "La chaîne 'Python' contient 6 caractères."
+  },
+  {
+    "id": 27,
+    "question": "Quel est le nom de l'opérateur pour 'différent de' en Python ?",
+    "options": [
+      "<>",
+      "!==",
+      "!=",
+      "=="
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "L'opérateur `!=` signifie 'n'est pas égal à'."
+  },
+  {
+    "id": 28,
+    "question": "Les chaînes de caractères en Python sont-elles modifiables (mutables) ?",
+    "options": [
+      "Oui, elles sont mutables.",
+      "Non, elles sont immuables.",
+      "Seulement si elles sont déclarées avec `var`.",
+      "Seulement en Python 3."
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Les chaînes de caractères (strings), les tuples et les nombres sont des types immuables en Python."
+  },
+  {
+    "id": 29,
+    "question": "Quelle est la sortie de `print([1, 2, 3] * 2)` ?",
+    "options": [
+      "[2, 4, 6]",
+      "[1, 2, 3, 1, 2, 3]",
+      "[1, 2, 3, 2]",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Multiplier une liste par un entier répète la liste ce nombre de fois."
+  },
+  {
+    "id": 30,
+    "question": "Quel mot clé est utilisé pour définir une classe en Python ?",
+    "options": [
+      "object",
+      "class",
+      "define_class",
+      "structure"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Le mot clé `class` est utilisé pour créer une nouvelle classe."
+  },
+  {
+    "id": 31,
+    "question": "Quelle est la sortie de `print(5 == 5.0)` ?",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "Python compare la valeur. L'entier 5 est numériquement égal au flottant 5.0."
+  },
+  {
+    "id": 32,
+    "question": "Comment crée-t-on un environnement virtuel nommé `venv` en ligne de commande ?",
+    "options": [
+      "python -m env venv",
+      "pip install venv",
+      "python -m venv venv",
+      "virtualenv create venv"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "La commande standard utilise le module intégré `venv`."
+  },
+  {
+    "id": 33,
+    "question": "Quel est le nom de la fonction spéciale d'initialisation dans une classe Python ?",
+    "options": [
+      "__create__",
+      "__new__",
+      "__init__",
+      "__start__"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "La méthode `__init__` (double underscore init double underscore) est appelée lors de la création d'une instance de classe."
+  },
+  {
+    "id": 34,
+    "question": "Quel est le résultat de `print(3 * 'abc')` ?",
+    "options": [
+      "'abcabc'",
+      "'abc3'",
+      "'abcabcabc'",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Multiplier une chaîne par un entier répète la chaîne ce nombre de fois."
+  },
+  {
+    "id": 35,
+    "question": "Comment ouvrir un fichier nommé 'data.txt' en mode lecture seule ?",
+    "options": [
+      "open('data.txt', 'write')",
+      "open('data.txt', 'r')",
+      "open('data.txt', 'read')",
+      "open('data.txt')"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Le mode 'r' est le mode de lecture (reading). C'est aussi le mode par défaut si non spécifié."
+  },
+  {
+    "id": 36,
+    "question": "Quelle est la sortie de `print('a' in 'apple')` ?",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "L'opérateur `in` vérifie l'appartenance (si un sous-élément est présent dans un conteneur)."
+  },
+  {
+    "id": 37,
+    "question": "Quel type de variable est créé par `x = lambda a : a + 1` ?",
+    "options": [
+      "Une classe",
+      "Une liste",
+      "Une fonction anonyme",
+      "Un générateur"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le mot clé `lambda` crée une petite fonction anonyme (sans nom)."
+  },
+  {
+    "id": 38,
+    "question": "Quelle est la bonne façon d'écrire un `if` simple en Python ?",
+    "options": [
+      "if x > 5 { print('Yes') }",
+      "if (x > 5): print('Yes')",
+      "if x > 5: print('Yes')",
+      "if x > 5 then print('Yes')"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Python utilise les deux points (`:`) et l'indentation (ou une seule ligne après les `:`) pour définir des blocs de code."
+  },
+  {
+    "id": 39,
+    "question": "Quel est le résultat de `print(type({1, 2, 3}))` ?",
+    "options": [
+      "<class 'list'>",
+      "<class 'tuple'>",
+      "<class 'dict'>",
+      "<class 'set'>"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "Les accolades utilisées seules pour une collection d'éléments non appariés créent un ensemble (set)."
+  },
+  {
+    "id": 40,
+    "question": "Comment arrondir le nombre 3.14159 à deux décimales ?",
+    "options": [
+      "math.round(3.14159, 2)",
+      "round(3.14159, 2)",
+      "floor(3.14159, 2)",
+      "int(3.14159 * 100) / 100"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "La fonction intégrée `round()` prend le nombre et le nombre de décimales en arguments."
+  },
+  {
+    "id": 41,
+    "question": "Quel est le nom du module Python standard pour travailler avec des données JSON ?",
+    "options": [
+      "json_data",
+      "jsons",
+      "json",
+      "datajson"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le module `json` permet de sérialiser et désérialiser des données JSON."
+  },
+  {
+    "id": 42,
+    "question": "Quelle est la sortie de `print(None is None)` ?",
+    "options": [
+      "True",
+      "False",
+      "0",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "`None` est un singleton objet, et `is` vérifie l'identité de l'objet (si c'est le même objet en mémoire)."
+  },
+  {
+    "id": 43,
+    "question": "Quelle méthode supprime le dernier élément d'une liste ET le renvoie ?",
+    "options": [
+      "remove()",
+      "delete()",
+      "pop()",
+      "clear()"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "`pop()` est couramment utilisé pour implémenter des structures de données de type pile (stack) LIFO."
+  },
+  {
+    "id": 44,
+    "question": "Quelle est la différence entre `list` et `tuple` ?",
+    "options": [
+      "Les listes utilisent `()` et les tuples utilisent `[]`.",
+      "Les listes sont immuables, les tuples sont mutables.",
+      "Les listes sont mutables, les tuples sont immuables.",
+      "Les tuples ne peuvent contenir que des nombres."
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "La mutabilité est la différence clé : les listes peuvent être modifiées sur place, les tuples non."
+  },
+  {
+    "id": 45,
+    "question": "Quel est l'outil souvent utilisé pour formater automatiquement le code Python selon le PEP 8 ?",
+    "options": [
+      "ESLint",
+      "Prettier",
+      "Black",
+      "Pylint"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Black est un formateur de code Python très populaire qui ne laisse aucune place au débat sur le style."
+  },
+  {
+    "id": 46,
+    "question": "Quelle est la sortie de `print('item' * 0)` ?",
+    "options": [
+      "'item'",
+      "''",
+      "0",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Multiplier une chaîne par zéro donne une chaîne vide."
+  },
+  {
+    "id": 47,
+    "question": "Quel mot clé permet de créer un générateur en Python ?",
+    "options": [
+      "generate",
+      "return",
+      "yield",
+      "send"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le mot clé `yield` 'gèle' l'exécution de la fonction et renvoie une valeur, permettant la création de générateurs efficaces."
+  },
+  {
+    "id": 48,
+    "question": "Quelle méthode de chaîne supprime les espaces de début et de fin ?",
+    "options": [
+      "trim()",
+      "cut()",
+      "strip()",
+      "whitespace()"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "La méthode `strip()` est utilisée pour supprimer les caractères d'espacement (ou spécifiés) des deux extrémités d'une chaîne."
+  },
+  {
+    "id": 49,
+    "question": "Que signifie l'acronyme Zen of Python (PEP 20) ?",
+    "options": [
+      "Des règles strictes pour écrire du code Java.",
+      "19 principes directeurs pour la philosophie de conception de Python.",
+      "Un guide pour l'installation de Python sur Linux.",
+      "Une liste de toutes les fonctions standard de Python."
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Le Zen de Python est accessible en tapant `import this` dans une console Python."
+  },
+  {
+    "id": 50,
+    "question": "Quel opérateur est utilisé pour la concaténation de listes ou de tuples ?",
+    "options": [
+      "*",
+      "&",
+      "+",
+      "%"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "L'opérateur `+` fusionne deux listes ou deux tuples en une seule nouvelle collection (par exemple, `[1]+[2]` donne `[1, 2]`)."
+  }
+]

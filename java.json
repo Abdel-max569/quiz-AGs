@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "Qui a inventé le langage de programmation Java ?",
+    "options": [
+      "Guido van Rossum",
+      "James Gosling",
+      "Dennis Ritchie",
+      "Bjarne Stroustrup"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Java a été développé par James Gosling chez Sun Microsystems en 1995."
+  },
+  {
+    "id": 2,
+    "question": "Quelle est la caractéristique principale qui rend Java indépendant de la plateforme ('Platform Independent') ?",
+    "options": [
+      "L'utilisation de pointeurs",
+      "Le compilateur JIT",
+      "La Machine Virtuelle Java (JVM)",
+      "Le JDK"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "La JVM permet au bytecode Java compilé de s'exécuter sur n'importe quel système disposant d'une JVM compatible ('compile once, run everywhere')."
+  },
+  {
+    "id": 3,
+    "question": "Quelle est la taille (en bits) du type de données primitif `int` en Java ?",
+    "options": [
+      "8 bits",
+      "16 bits",
+      "32 bits",
+      "64 bits"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Un `int` en Java occupe 32 bits (4 octets) de mémoire."
+  },
+  {
+    "id": 4,
+    "question": "Lequel des éléments suivants N'EST PAS un type de données primitif en Java ?",
+    "options": [
+      "int",
+      "float",
+      "String",
+      "char"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "`String` est une classe (un type de référence), tandis que `int`, `float` et `char` sont des types primitifs."
+  },
+  {
+    "id": 5,
+    "question": "Quelle est la valeur par défaut d'une variable `boolean` en Java ?",
+    "options": [
+      "true",
+      "false",
+      "0",
+      "null"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "En Java, la valeur par défaut d'une variable `boolean` est `false`."
+  },
+  {
+    "id": 6,
+    "question": "Quel mot clé est utilisé pour définir une constante en Java ?",
+    "options": [
+      "const",
+      "static",
+      "final",
+      "const final"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le mot clé `final` est utilisé pour déclarer une variable dont la valeur ne peut pas être modifiée une fois initialisée."
+  },
+  {
+    "id": 7,
+    "question": "Quelle est la syntaxe correcte pour un commentaire sur une seule ligne en Java ?",
+    "options": [
+      "// Ceci est un commentaire",
+      "<!-- Ceci est un commentaire -->",
+      "# Ceci est un commentaire",
+      "/* Ceci est un commentaire */"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "Les doubles barres obliques (`//`) sont utilisées pour les commentaires sur une seule ligne."
+  },
+  {
+    "id": 8,
+    "question": "Quel composant est utilisé pour compiler, déboguer et exécuter les programmes Java ?",
+    "options": [
+      "JRE (Java Runtime Environment)",
+      "JIT (Just-In-Time compiler)",
+      "JDK (Java Development Kit)",
+      "JVM (Java Virtual Machine)"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le JDK contient tous les outils nécessaires au développement Java, y compris le compilateur `javac` et le JRE."
+  },
+  {
+    "id": 9,
+    "question": "Lequel de ces éléments n'est pas un concept de la POO (Programmation Orientée Objet) ?",
+    "options": [
+      "Héritage (Inheritance)",
+      "Polymorphisme",
+      "Utilisation de pointeurs",
+      "Encapsulation"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Java a été conçu pour éviter l'utilisation explicite de pointeurs, contrairement au C/C++."
+  },
+  {
+    "id": 10,
+    "question": "Quel mot clé est utilisé pour créer une instance d'une classe (un objet) ?",
+    "options": [
+      "make",
+      "create",
+      "new",
+      "instance"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "L'opérateur `new` alloue de la mémoire pour un nouvel objet et appelle son constructeur."
+  },
+  {
+    "id": 11,
+    "question": "Quelle est la sortie de `System.out.print(10 / 3);` pour des entiers ?",
+    "options": [
+      "3.333",
+      "3",
+      "1",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "La division entière (`/` entre deux `int`) tronque le résultat décimal, renvoyant seulement la partie entière 3."
+  },
+  {
+    "id": 12,
+    "question": "Quelle méthode doit être implémentée par toutes les classes qui veulent s'exécuter dans un thread séparé ?",
+    "options": [
+      "start()",
+      "run()",
+      "execute()",
+      "init()"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Le code qui s'exécute dans un thread séparé doit être placé dans la méthode `run()`, soit en étendant `Thread`, soit en implémentant l'interface `Runnable`."
+  },
+  {
+    "id": 13,
+    "question": "Quel opérateur est utilisé pour comparer à la fois la valeur et le type d'objets en Java ?",
+    "options": [
+      "==",
+      "===",
+      ".equals()",
+      ".isEqual()"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "En Java, `==` vérifie l'égalité de référence (si ce sont les mêmes objets en mémoire). `.equals()` est utilisé pour comparer le contenu ou la valeur logique des objets (comme les `String`)."
+  },
+  {
+    "id": 14,
+    "question": "Quelle est la sortie de `print('Java' + 1 + 2);` ?",
+    "options": [
+      "'Java12'",
+      "'Java3'",
+      "Erreur",
+      "3"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "Dès qu'une chaîne est impliquée dans une opération `+`, toutes les opérations suivantes sont des concaténations de chaînes. L'expression est évaluée de gauche à droite."
+  },
+  {
+    "id": 15,
+    "question": "Quel mot clé permet à une classe d'hériter d'une autre classe en Java ?",
+    "options": [
+      "implements",
+      "uses",
+      "extends",
+      "inherits"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le mot clé `extends` est utilisé pour établir une relation d'héritage entre classes (`class B extends A`)."
+  },
+  {
+    "id": 16,
+    "question": "Quelle méthode est le point d'entrée de tout programme Java autonome ?",
+    "options": [
+      "start()",
+      "main(String[] args)",
+      "run()",
+      "init(String[] args)"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Tous les programmes Java démarrent l'exécution dans une méthode `public static void main(String[] args)`."
+  },
+  {
+    "id": 17,
+    "question": "Quelle est la sortie de `System.out.print(5 == 5.0);` ?",
+    "options": [
+      "true",
+      "false",
+      "Erreur de compilation",
+      "Erreur d'exécution"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "Java effectue une promotion de type (`type promotion`). L'entier `5` est promu en flottant `5.0` avant la comparaison, et les valeurs sont égales."
+  },
+  {
+    "id": 18,
+    "question": "Quelle structure de contrôle de boucle garantit que le bloc de code s'exécute au moins une fois ?",
+    "options": [
+      "for loop",
+      "while loop",
+      "do-while loop",
+      "foreach loop"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Dans une boucle `do-while`, la condition est vérifiée APRÈS l'exécution initiale du bloc `do`."
+  },
+  {
+    "id": 19,
+    "question": "Quelle est la valeur par défaut d'une variable de référence (objet) si elle n'est pas initialisée ?",
+    "options": [
+      "0",
+      "false",
+      "undefined",
+      "null"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "Toute variable objet non initialisée ou dont la référence est vide a la valeur `null`."
+  },
+  {
+    "id": 20,
+    "question": "Lequel de ces mots clés n'est pas un modificateur d'accès (access modifier) en Java ?",
+    "options": [
+      "public",
+      "private",
+      "protected",
+      "hidden"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "Les modificateurs d'accès en Java sont `public`, `private`, `protected` et le niveau par défaut (package-private/no keyword)."
+  },
+  {
+    "id": 21,
+    "question": "Quelle est la sortie de `print(\"Hello\".length());` ?",
+    "options": [
+      "5",
+      "6",
+      "Erreur",
+      "null"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "La méthode `.length()` sur l'objet String renvoie le nombre de caractères."
+  },
+  {
+    "id": 22,
+    "question": "Quel mot clé est utilisé pour faire référence à l'instance actuelle de la classe dans une méthode ?",
+    "options": [
+      "parent",
+      "super",
+      "this",
+      "self"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le mot clé `this` est utilisé pour lever l'ambiguïté entre les variables locales/paramètres et les champs d'instance, ou pour appeler un autre constructeur de la même classe."
+  },
+  {
+    "id": 23,
+    "question": "Comment gérez-vous les exceptions en Java ?",
+    "options": [
+      "try/catch",
+      "try/except",
+      "try/handle",
+      "onError"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "Java utilise les blocs `try`, `catch` et éventuellement `finally` pour la gestion structurée des exceptions."
+  },
+  {
+    "id": 24,
+    "question": "Quelle est la sortie de `print(3 * \"Java\");` ?",
+    "options": [
+      "'JavaJavaJava'",
+      "'JavaJava'",
+      "Erreur de compilation",
+      "9"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Java, contrairement à Python ou PHP, ne permet pas de multiplier une chaîne par un entier. Cela provoque une erreur de compilation."
+  },
+  {
+    "id": 25,
+    "question": "Quel type de données est utilisé pour stocker un seul caractère en Java ?",
+    "options": [
+      "String",
+      "char",
+      "Character",
+      "byte"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Le type primitif `char` stocke un seul caractère Unicode sur 16 bits."
+  },
+  {
+    "id": 26,
+    "question": "Quelle est la différence entre `ArrayList` et les tableaux (`Arrays`) en Java ?",
+    "options": [
+      "`ArrayList` peut stocker des types primitifs, les tableaux uniquement des objets.",
+      "Les tableaux ont une taille fixe, `ArrayList` est redimensionnable dynamiquement.",
+      "`ArrayList` est plus rapide que les tableaux.",
+      "Il n'y a aucune différence fonctionnelle majeure."
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Les `Arrays` sont des structures de données de taille fixe, définies au moment de l'initialisation. `ArrayList` fait partie de la Collection Framework et peut grandir ou rétrécir."
+  },
+  {
+    "id": 27,
+    "question": "Quel mot clé est utilisé pour sortir d'une méthode et renvoyer une valeur ?",
+    "options": [
+      "exit",
+      "return",
+      "break",
+      "continue"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Le mot clé `return` met fin à l'exécution de la méthode et renvoie la valeur spécifiée à l'appelant."
+  },
+  {
+    "id": 28,
+    "question": "Qu'est-ce que l'encapsulation en POO ?",
+    "options": [
+      "La capacité d'une méthode à prendre plusieurs formes.",
+      "La création de classes abstraites.",
+      "Le regroupement des données (champs) et des méthodes qui opèrent sur ces données au sein d'une seule unité (objet), souvent en masquant l'état interne.",
+      "L'héritage de propriétés d'une autre classe."
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "L'encapsulation est souvent réalisée via des modificateurs d'accès `private` et des méthodes `getter`/`setter` publiques."
+  },
+  {
+    "id": 29,
+    "question": "Lequel est un exemple d'héritage multiple en Java ?",
+    "options": [
+      "Une classe étendant deux classes.",
+      "Une classe implémentant deux interfaces.",
+      "Une classe étendant une classe et implémentant une interface.",
+      "Java ne supporte pas l'héritage multiple de classes, seulement d'interfaces."
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "Java supporte l'héritage simple de classes (`extends`), mais permet l'implémentation de plusieurs interfaces (`implements`) pour contourner le problème du diamant de l'héritage multiple."
+  },
+  {
+    "id": 30,
+    "question": "Quelle est la sortie de `print(Math.round(3.5));` ?",
+    "options": [
+      "3",
+      "4",
+      "3.0",
+      "4.0"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "`Math.round()` arrondit à l'entier le plus proche, avec .5 toujours arrondi vers le haut (donc 4)."
+  },
+  {
+    "id": 31,
+    "question": "Quel mot clé rend une variable partagée par toutes les instances d'une classe ?",
+    "options": [
+      "public",
+      "final",
+      "void",
+      "static"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "Les variables `static` (variables de classe) n'appartiennent pas aux instances individuelles mais à la classe elle-même."
+  },
+  {
+    "id": 32,
+    "question": "Quelle est la sortie de `print(.length);` ?",
+    "options": [
+      "3",
+      "6",
+      "Erreur",
+      "4"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "Pour les tableaux (`Arrays`), on utilise la propriété `.length` (sans parenthèses) pour obtenir le nombre d'éléments."
+  },
+  {
+    "id": 33,
+    "question": "Quel est le nom de la méthode de nettoyage de la mémoire automatique de Java ?",
+    "options": [
+      "Memory Cleaner",
+      "Garbage Collector",
+      "Destructor",
+      "Memory Manager"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Le Garbage Collector (GC) est responsable de la libération automatique de la mémoire des objets qui ne sont plus référencés."
+  },
+  {
+    "id": 34,
+    "question": "Quel est le résultat de `print(\"abc\".charAt(1));` ?",
+    "options": [
+      "'a'",
+      "'b'",
+      "'c'",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "L'indexation en Java commence à 0. L'index 1 correspond au deuxième caractère, 'b'."
+  },
+  {
+    "id": 35,
+    "question": "Que signifie `JRE` ?",
+    "options": [
+      "Java Remote Environment",
+      "Java Runtime Extension",
+      "Java Run-Time Environment",
+      "Java Resource Editor"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le JRE fournit les bibliothèques et la JVM nécessaires pour exécuter des programmes Java compilés."
+  },
+  {
+    "id": 36,
+    "question": "Quel mot clé est utilisé pour forcer une classe à ne pas pouvoir être sous-classée (étendue) ?",
+    "options": [
+      "static",
+      "private",
+      "abstract",
+      "final"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "Une classe `final` ne peut pas être étendue. Une méthode `final` ne peut pas être surchargée."
+  },
+  {
+    "id": 37,
+    "question": "Quelle est la sortie de `print(10 % 3 == 1);` ?",
+    "options": [
+      "true",
+      "false",
+      "Erreur",
+      "1"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "`10 % 3` vaut 1. `1 == 1` est vrai."
+  },
+  {
+    "id": 38,
+    "question": "Quelle est la différence entre une classe abstraite et une interface ?",
+    "options": [
+      "Une classe abstraite ne peut pas avoir de constructeurs, une interface oui.",
+      "Une interface peut contenir l'implémentation de méthodes (avant Java 8/9, c'était faux).",
+      "Une classe peut implémenter plusieurs interfaces mais étendre une seule classe abstraite.",
+      "Les interfaces ne peuvent pas avoir de méthodes statiques."
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "La principale distinction est que l'héritage de classes est simple en Java (une seule superclasse), tandis que l'implémentation d'interfaces multiples est autorisée."
+  },
+  {
+    "id": 39,
+    "question": "Quel opérateur est utilisé pour accéder aux méthodes et propriétés statiques d'une classe ?",
+    "options": [
+      ". (point)",
+      ":: (double deux-points)",
+      "-> (flèche)",
+      "=> (flèche épaisse)"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "Le point (`.`) est l'opérateur d'accès standard pour tous les membres de classe, statiques ou non-statiques."
+  },
+  {
+    "id": 40,
+    "question": "Quelle est la sortie de `print(Integer.parseInt(\"123\") + 1);` ?",
+    "options": [
+      "'1231'",
+      "124",
+      "'124'",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "`Integer.parseInt()` convertit la chaîne en type primitif `int`, permettant l'addition numérique."
+  },
+  {
+    "id": 41,
+    "question": "Quel type de données doit être utilisé pour stocker de très grands nombres entiers (plus grands qu'un `long`) ?",
+    "options": [
+      "double",
+      "BigInt",
+      "BigDecimal",
+      "BigInteger"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "La classe `BigInteger` (package `java.math`) gère des entiers de taille arbitraire."
+  },
+  {
+    "id": 42,
+    "question": "Quelle est la sortie de `print(Character.isDigit('4'));` ?",
+    "options": [
+      "true",
+      "false",
+      "'4' est un chiffre",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "La méthode statique vérifie si le caractère donné est un chiffre décimal."
+  },
+  {
+    "id": 43,
+    "question": "Que fait le mot clé `super` en Java ?",
+    "options": [
+      "Il appelle la classe de niveau supérieur de l'application.",
+      "Il fait référence à la classe parente immédiate (superclasse).",
+      "Il rend une variable globale.",
+      "Il termine le programme."
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "`super` est utilisé pour appeler le constructeur ou les méthodes/champs de la classe parente."
+  },
+  {
+    "id": 44,
+    "question": "Quelle collection garantit que les éléments sont uniques et n'autorise pas les doublons ?",
+    "options": [
+      "ArrayList",
+      "LinkedList",
+      "HashSet",
+      "HashMap"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le contrat de l'interface `Set` (implémentée par `HashSet`) stipule qu'elle ne contient pas d'éléments dupliqués."
+  },
+  {
+    "id": 45,
+    "question": "Comment importer la classe `Scanner` ?",
+    "options": [
+      "import java.util.Scanner;",
+      "include java.util.Scanner;",
+      "require java.util.Scanner;",
+      "using java.util.Scanner;"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "Le mot clé `import` est utilisé pour rendre les classes d'autres packages disponibles dans le fichier courant."
+  },
+  {
+    "id": 46,
+    "question": "Quelle est la sortie de `print(Integer.valueOf(\"10\").intValue());` ?",
+    "options": [
+      "'10'",
+      "10.0",
+      "10",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "`valueOf()` crée un objet `Integer`, puis `intValue()` le convertit en type primitif `int`."
+  },
+  {
+    "id": 47,
+    "question": "Quelle est la sortie de `print(\"Java\".indexOf('a'));` ?",
+    "options": [
+      "0",
+      "1",
+      "3",
+      "-1"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "La méthode `indexOf()` renvoie l'index de la première occurrence du caractère spécifié, qui est 'a' à l'index 1."
+  },
+  {
+    "id": 48,
+    "question": "Quelle classe est immutable par défaut en Java ?",
+    "options": [
+      "StringBuilder",
+      "ArrayList",
+      "String",
+      "Date"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Les objets `String` ne peuvent pas être modifiés après leur création. Toute opération de modification crée un nouvel objet String."
+  },
+  {
+    "id": 49,
+    "question": "Quel mot clé est utilisé dans un bloc `try...catch` pour s'assurer qu'un bloc de code est exécuté quoi qu'il arrive ?",
+    "options": [
+      "always",
+      "ensure",
+      "finally",
+      "after"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le bloc `finally` s'exécute que l'exception ait été levée et gérée, ou non. Il est idéal pour fermer des ressources comme les fichiers ou les connexions de base de données."
+  },
+  {
+    "id": 50,
+    "question": "Quel opérateur est utilisé pour vérifier si un objet est une instance d'une classe ou d'une interface ?",
+    "options": [
+      "isOfType",
+      "typeof",
+      "instanceof",
+      "getClass()"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "L'opérateur `instanceof` vérifie si un objet est une instance spécifique, y compris via l'héritage."
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "Quelle est la syntaxe correcte pour inclure un fichier nommé 'header.php' en PHP ?",
+    "options": [
+      "<!-- include header.php -->",
+      "<?php include 'header.php'; ?>",
+      "<?php require_once('header.php'); ?>",
+      "Les deux b et c sont corrects"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "`include` et `require` incluent des fichiers. `require_once` et `include_once` évitent les inclusions multiples. Les deux syntaxes montrées sont correctes pour l'inclusion basique."
+  },
+  {
+    "id": 2,
+    "question": "Quel symbole est utilisé pour déclarer une variable en PHP ?",
+    "options": [
+      "@",
+      "#",
+      "$",
+      "%"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Toutes les variables en PHP commencent par le signe dollar ($)."
+  },
+  {
+    "id": 3,
+    "question": "Comment terminer correctement une instruction PHP ?",
+    "options": [
+      "Par un point (`.`)",
+      "Par deux points (`:`)",
+      "Par un point-virgule (`;`)",
+      "Par une nouvelle ligne"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Comme beaucoup de langages, les instructions PHP se terminent par un point-virgule (`;`)."
+  },
+  {
+    "id": 4,
+    "question": "Quelle est la sortie de `print(10 % 3);` en PHP ?",
+    "options": [
+      "3.333",
+      "3",
+      "1",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "L'opérateur `%` est l'opérateur modulo, qui renvoie le reste de la division entière."
+  },
+  {
+    "id": 5,
+    "question": "Quelle fonction PHP est utilisée pour convertir un tableau associatif en chaîne JSON ?",
+    "options": [
+      "json_decode()",
+      "json_encode()",
+      "to_json()",
+      "array_to_json()"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "La fonction `json_encode()` est utilisée pour convertir une valeur PHP (généralement un tableau ou un objet) en une chaîne JSON."
+  },
+  {
+    "id": 6,
+    "question": "Quelle fonction PHP est utilisée pour convertir une chaîne JSON en un objet ou un tableau PHP ?",
+    "options": [
+      "json_encode()",
+      "json_decode()",
+      "from_json()",
+      "json_parse()"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "La fonction `json_decode()` est utilisée pour décoder une chaîne JSON. Si le deuxième argument est `true`, elle retourne un tableau associatif."
+  },
+  {
+    "id": 7,
+    "question": "Quelle est la différence entre `include` et `require` ?",
+    "options": [
+      "`include` génère une erreur fatale si le fichier est introuvable, `require` seulement un avertissement.",
+      "`require` génère une erreur fatale si le fichier est introuvable, `include` seulement un avertissement.",
+      "Il n'y a aucune différence, ce sont des synonymes.",
+      "`include` fonctionne avec les fichiers HTML, `require` uniquement avec les fichiers PHP."
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Si le fichier n'existe pas, `require` arrête l'exécution du script (erreur fatale), tandis qu'`include` émet un avertissement et continue."
+  },
+  {
+    "id": 8,
+    "question": "Commentaire sur une seule ligne en PHP ?",
+    "options": [
+      "// Ceci est un commentaire",
+      "# Ceci est un commentaire",
+      "<!-- Ceci est un commentaire -->",
+      "Les deux a et b sont corrects"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "PHP supporte les commentaires de style C++ (`//`) et de style shell (`#`)."
+  },
+  {
+    "id": 9,
+    "question": "Quel est le résultat de `print('10' + 2);` en PHP ?",
+    "options": [
+      "'102'",
+      "12",
+      "'12'",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "PHP effectue une conversion de type automatique (type juggling). L'opérateur `+` force une opération numérique, convertissant '10' en 10."
+  },
+  {
+    "id": 10,
+    "question": "Quel opérateur est utilisé pour la concaténation de chaînes en PHP ?",
+    "options": [
+      "+",
+      "&",
+      ".",
+      "*"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le point (`.`) est l'opérateur de concaténation de chaînes officiel en PHP."
+  },
+  {
+    "id": 11,
+    "question": "Quel est le nom de l'opérateur de résolution de portée (scope resolution operator) en PHP ?",
+    "options": [
+      "::",
+      "->",
+      "===",
+      "$$"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "L'opérateur `::` (aussi appelé Paamayim Nekudotayim) est utilisé pour accéder aux membres statiques, aux constantes et aux méthodes surchargées d'une classe."
+  },
+  {
+    "id": 12,
+    "question": "Quelle est la différence entre `==` et `===` en PHP ?",
+    "options": [
+      "`==` vérifie la valeur uniquement, `===` vérifie la valeur ET le type de données.",
+      "`===` vérifie la valeur uniquement, `==` vérifie la valeur ET le type de données.",
+      "`==` est utilisé pour les nombres, `===` pour les chaînes.",
+      "Il n'y a pas de `===` en PHP."
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "L'opérateur `===` est l'opérateur d'identité stricte."
+  },
+  {
+    "id": 13,
+    "question": "Quel mot clé est utilisé pour définir une constante globale en PHP ?",
+    "options": [
+      "const",
+      "global",
+      "define()",
+      "static"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "La fonction `define()` est la méthode standard pour définir une constante accessible globalement."
+  },
+  {
+    "id": 14,
+    "question": "Quelle fonction PHP est utilisée pour démarrer une session ?",
+    "options": [
+      "session_start()",
+      "start_session()",
+      "session_begin()",
+      "init_session()"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "`session_start()` doit être appelée au début du script pour utiliser les variables de session (`$_SESSION`)."
+  },
+  {
+    "id": 15,
+    "question": "Quelle superglobale contient les données envoyées via la méthode HTTP POST ?",
+    "options": [
+      "$_GET",
+      "$_SESSION",
+      "$_SERVER",
+      "$_POST"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "Les données POST provenant d'un formulaire HTML sont stockées dans le tableau associatif `$_POST`."
+  },
+  {
+    "id": 16,
+    "question": "Quelle est la sortie de `print('Hello' . ' World');` ?",
+    "options": [
+      "'Hello World'",
+      "'HelloWorld'",
+      "'Hello+World'",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "L'opérateur de concaténation `.` joint les deux chaînes. L'espace fait partie de la deuxième chaîne."
+  },
+  {
+    "id": 17,
+    "question": "Quelle fonction PHP permet de rediriger un utilisateur vers une autre page ?",
+    "options": [
+      "redirect()",
+      "header('Location: ...')",
+      "goto()",
+      "move_to_page()"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "La fonction `header()` est utilisée pour envoyer des en-têtes HTTP bruts, y compris l'en-tête de redirection 'Location'."
+  },
+  {
+    "id": 18,
+    "question": "Quelle superglobale contient des informations sur les en-têtes, les chemins et les emplacements du script ?",
+    "options": [
+      "$_REQUEST",
+      "$_ENV",
+      "$_GLOBALS",
+      "$_SERVER"
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "Le tableau `$_SERVER` est très utile pour accéder aux informations du serveur web et de l'environnement d'exécution."
+  },
+  {
+    "id": 19,
+    "question": "Comment vérifier si une variable est vide en PHP ?",
+    "options": [
+      "is_null()",
+      "empty()",
+      "is_blank()",
+      "isset()"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "`empty()` vérifie si une variable est vide, ce qui inclut `''`, `0`, `NULL`, `false`, et les tableaux vides."
+  },
+  {
+    "id": 20,
+    "question": "Quel est le résultat de `print(isset($a));` si `$a` n'a pas été déclarée ?",
+    "options": [
+      "True",
+      "False",
+      "0",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "`isset()` vérifie si une variable est déclarée ET n'est pas NULL. Elle renvoie `False` si `$a` n'existe pas."
+  },
+  {
+    "id": 21,
+    "question": "Quelle méthode de requête HTTP doit être utilisée pour envoyer des données sensibles (mots de passe, etc.) ?",
+    "options": [
+      "GET",
+      "HEAD",
+      "POST",
+      "PUT"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "La méthode POST envoie les données dans le corps de la requête HTTP, pas dans l'URL, ce qui est plus sûr pour les données sensibles."
+  },
+  {
+    "id": 22,
+    "question": "Quelle est l'extension de fichier standard pour un fichier PHP ?",
+    "options": [
+      ".html",
+      ".php",
+      ".ph",
+      ".phtml"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Les fichiers PHP utilisent généralement l'extension `.php`."
+  },
+  {
+    "id": 23,
+    "question": "Quel est le rôle de `session_destroy()` ?",
+    "options": [
+      "De connecter un utilisateur.",
+      "De supprimer une seule variable de session.",
+      "De terminer la session actuelle et de supprimer toutes les données de session stockées.",
+      "De rediriger l'utilisateur vers la page de connexion."
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "`session_destroy()` nettoie complètement les données de session côté serveur."
+  },
+  {
+    "id": 24,
+    "question": "Comment déclarer un tableau indexé numériquement avec les valeurs 1, 2, 3 en PHP ?",
+    "options": [
+      "$arr = (1, 2, 3);",
+      "$arr = [1:1, 2:2, 3:3];",
+      "$arr = array(1, 2, 3);",
+      "Les deux b et c sont corrects"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "PHP utilise `array()` ou la syntaxe courte `[]` (depuis PHP 5.4) pour déclarer des tableaux."
+  },
+  {
+    "id": 25,
+    "question": "Quelle fonction est utilisée pour obtenir la longueur d'une chaîne de caractères en PHP ?",
+    "options": [
+      "len()",
+      "length()",
+      "strlen()",
+      "str_length()"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "`strlen()` (String Length) est la fonction intégrée pour compter le nombre d'octets dans une chaîne."
+  },
+  {
+    "id": 26,
+    "question": "Quel opérateur est utilisé pour accéder aux propriétés ou méthodes d'un objet en PHP ?",
+    "options": [
+      ".",
+      "::",
+      "->",
+      "=>"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "La flèche (`->`) est utilisée pour accéder aux membres d'une instance d'objet."
+  },
+  {
+    "id": 27,
+    "question": "Que fait `var_dump()` en PHP ?",
+    "options": [
+      "Affiche simplement une variable.",
+      "Affiche des informations structurées sur une ou plusieurs expressions, y compris leur type et leur valeur.",
+      "Supprime une variable.",
+      "Vérifie si une variable a été modifiée."
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "`var_dump()` est un outil de débogage essentiel qui fournit des détails sur la structure et le contenu d'une variable."
+  },
+  {
+    "id": 28,
+    "question": "Quel est le résultat de `print('PHP' . 7);` ?",
+    "options": [
+      "'PHP7'",
+      "Erreur",
+      "'PHP 7'",
+      "'7PHP'"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "Le point concatène la chaîne et le nombre, le nombre étant automatiquement converti en chaîne."
+  },
+  {
+    "id": 29,
+    "question": "Commentaire sur plusieurs lignes en PHP ?",
+    "options": [
+      "// ... //",
+      "/* ... */",
+      "<!-- ... -->",
+      "# ... #"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Les blocs de commentaires commencent par `/*` et se terminent par `*/`."
+  },
+  {
+    "id": 30,
+    "question": "Quelle est la sortie de `print(10 === '10');` en PHP ?",
+    "options": [
+      "True",
+      "False",
+      "1",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "L'opérateur d'identité stricte (`===`) compare à la fois la valeur (10 vs '10') et le type (int vs string), qui sont différents ici."
+  },
+  {
+    "id": 31,
+    "question": "Quelle fonction est utilisée pour se connecter à une base de données MySQL à l'aide d'extensions modernes ?",
+    "options": [
+      "mysql_connect()",
+      "mysqli_connect()",
+      "pdo_connect()",
+      "Les deux b et c sont de bonnes options modernes."
+    ],
+    "correctAnswerIndex": 3,
+    "explication": "`mysqli` (MySQL Improved) et PDO (PHP Data Objects) sont les méthodes recommandées. L'ancienne `mysql_*` est obsolète et dangereuse."
+  },
+  {
+    "id": 32,
+    "question": "Quelle est la sortie de `print(isset($_GET['username']));` si l'URL est `http://example.com/page.php?username=test` ?",
+    "options": [
+      "True",
+      "False",
+      "NULL",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "La superglobale `$_GET` contient les paramètres de la chaîne de requête URL. `isset` renverra vrai car la clé 'username' existe."
+  },
+  {
+    "id": 33,
+    "question": "Qu'est-ce que le 'type juggling' en PHP ?",
+    "options": [
+      "La capacité de PHP à gérer plusieurs types de données en même temps.",
+      "La conversion automatique de types de données (par exemple, de chaîne à entier) pendant les opérations.",
+      "Une erreur courante lors de la manipulation de variables.",
+      "Une technique de cryptage de données sensibles."
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Le 'type juggling' est la conversion de type automatique et flexible de PHP, ce qui peut parfois mener à des résultats inattendus."
+  },
+  {
+    "id": 34,
+    "question": "Quelle fonction permet de supprimer les espaces blancs (espaces, tabulations, retours chariot) du début et de la fin d'une chaîne ?",
+    "options": [
+      "trim()",
+      "strip()",
+      "clean()",
+      "remove_whitespace()"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "`trim()` est la fonction standard pour nettoyer les espaces indésirables aux extrémités d'une chaîne de caractères."
+  },
+  {
+    "id": 35,
+    "question": "Quel mot clé est utilisé pour définir une méthode ou une propriété qui appartient à la classe elle-même, pas à une instance de classe ?",
+    "options": [
+      "public",
+      "private",
+      "static",
+      "const"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Les membres `static` sont accessibles sans instancier la classe, en utilisant l'opérateur de résolution de portée `::`."
+  },
+  {
+    "id": 36,
+    "question": "Quel est le rôle de la fonction `htmlspecialchars()` ?",
+    "options": [
+      "D'encoder les caractères HTML en entités pour prévenir les attaques XSS.",
+      "De supprimer tout le HTML d'une chaîne.",
+      "De décoder les entités HTML en caractères normaux.",
+      "D'ajouter des balises HTML à une chaîne."
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "C'est une fonction de sécurité essentielle qui convertit des caractères spéciaux comme `<` en `&lt;`, empêchant ainsi l'exécution de scripts malicieux."
+  },
+  {
+    "id": 37,
+    "question": "Quel est le résultat de `$x = 5; print($x++);` ?",
+    "options": [
+      "5",
+      "6",
+      "Erreur",
+      "NULL"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "L'opérateur post-incrémentation (`$x++`) utilise d'abord la valeur actuelle de `$x` (5), puis l'incrémente (à 6). Le `print` affiche 5."
+  },
+  {
+    "id": 38,
+    "question": "Quelle fonction est utilisée pour écrire dans un fichier ouvert ?",
+    "options": [
+      "file_write()",
+      "f_put_contents()",
+      "fwrite()",
+      "file_append()"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "`fwrite()` est utilisée avec un pointeur de fichier ouvert pour écrire des données."
+  },
+  {
+    "id": 39,
+    "question": "Quelle est la sortie de `print(gettype([]));` ?",
+    "options": [
+      "'object'",
+      "'list'",
+      "'array'",
+      "'null'"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "En PHP, les crochets `[]` créent un type `array` (tableau)."
+  },
+  {
+    "id": 40,
+    "question": "Qu'est-ce qu'un Cookie en PHP ?",
+    "options": [
+      "Une variable stockée sur le serveur.",
+      "Un petit fichier texte stocké sur l'ordinateur du client pour suivre des informations.",
+      "Un type de base de données rapide.",
+      "Une erreur de session courante."
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Les cookies sont essentiels pour gérer l'état (comme l'authentification) entre les requêtes HTTP sans état."
+  },
+  {
+    "id": 41,
+    "question": "Quelle fonction doit être utilisée pour échapper les caractères spéciaux dans une chaîne SQL (obsolète mais historiquement importante) ?",
+    "options": [
+      "sql_escape()",
+      "mysqli_real_escape_string()",
+      "pdo_escape()",
+      "htmlspecialchars()"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Cette fonction était cruciale pour prévenir les injections SQL. Dans le code moderne, on utilise des requêtes préparées (PDO ou MySQLi)."
+  },
+  {
+    "id": 42,
+    "question": "Quel opérateur combine deux conditions booléennes et renvoie Vrai si LES DEUX conditions sont Vraies ?",
+    "options": [
+      "|| (OU)",
+      "&& (ET)",
+      "xor (OU exclusif)",
+      "! (NON)"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "L'opérateur `&&` ou son équivalent `and` est utilisé pour l'opération logique ET."
+  },
+  {
+    "id": 43,
+    "question": "Que signifie `$$` en PHP ?",
+    "options": [
+      "Un opérateur d'identité stricte.",
+      "Un opérateur de résolution de portée.",
+      "Une variable de variable (variable variable).",
+      "Une erreur de syntaxe."
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "C'est une fonctionnalité avancée où le nom d'une variable est dynamiquement déterminé par la valeur d'une autre variable."
+  },
+  {
+    "id": 44,
+    "question": "Comment définir une fonction en PHP ?",
+    "options": [
+      "def myFunction() {}",
+      "function myFunction() {}",
+      "create function myFunction() {}",
+      "myFunction: function() {}"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Le mot clé `function` est standard pour déclarer une fonction nommée."
+  },
+  {
+    "id": 45,
+    "question": "Quelle est la sortie de `print(substr('Développement', 0, 4));` ?",
+    "options": [
+      "'Dévelo'",
+      "'Déve'",
+      "'Développement'",
+      "Erreur"
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "`substr()` extrait une sous-chaîne. Elle commence à l'index 0 et prend les 4 premiers caractères."
+  },
+  {
+    "id": 46,
+    "question": "Quel est le rôle de `composer.json` et `composer.lock` ?",
+    "options": [
+      "Ce sont des fichiers de configuration de base de données.",
+      "Ils gèrent les dépendances et les paquets PHP à l'aide de l'outil Composer.",
+      "Ce sont des fichiers de configuration Apache.",
+      "Ils gèrent les sessions utilisateur."
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Composer est le gestionnaire de dépendances standard de facto pour PHP, similaire à pip en Python."
+  },
+  {
+    "id": 47,
+    "question": "Quel est l'opérateur ternaire correct pour attribuer 'oui' si `$x` est supérieur à 10, sinon 'non' ?",
+    "options": [
+      "$result = $x > 10 ? 'oui' : 'non';",
+      "$result = if ($x > 10) 'oui' else 'non';",
+      "$result = ($x > 10) ?? 'oui' : 'non';",
+      "$result = 'oui' : 'non' if $x > 10;"
+    ],
+    "correctAnswerIndex": 0,
+    "explication": "L'opérateur ternaire a la syntaxe `(condition) ? valeur_si_vrai : valeur_si_faux;`."
+  },
+  {
+    "id": 48,
+    "question": "Quelle fonction PHP est utilisée pour lire le contenu entier d'un fichier dans une chaîne ?",
+    "options": [
+      "readfile()",
+      "fopen()",
+      "file_get_contents()",
+      "fread()"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "`file_get_contents()` est une fonction très pratique pour lire rapidement l'intégralité d'un fichier."
+  },
+  {
+    "id": 49,
+    "question": "Quel est le mot clé utilisé pour l'héritage de classe en PHP (par exemple, 'La classe B hérite de la classe A') ?",
+    "options": [
+      "implements",
+      "uses",
+      "extends",
+      "inherits"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Le mot clé `extends` est utilisé pour qu'une classe hérite des propriétés et méthodes d'une autre classe parente."
+  },
+  {
+    "id": 50,
+    "question": "Qu'est-ce qu'un espace de noms (namespace) en PHP ?",
+    "options": [
+      "Une variable globale spéciale qui stocke l'emplacement du fichier.",
+      "Une méthode pour organiser le code et prévenir les conflits de noms entre classes, fonctions et constantes.",
+      "Un type de base de données spécifique à PHP.",
+      "Une méthode pour définir la portée des variables locales."
+    ],
+    "correctAnswerIndex": 1,
+    "explication": "Les espaces de noms sont cruciaux dans les applications modernes pour éviter les collisions de noms, surtout lors de l'utilisation de bibliothèques tierces (via Composer)."
+  }
+]
