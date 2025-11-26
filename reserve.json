@@ -1,5 +1,17 @@
 [
   {
+    "id": 1,
+    "question": "Quelle est la capitale de la France ?",
+    "options": [
+      "Berlin",
+      "Madrid",
+      "Paris",
+      "Rome"
+    ],
+    "correctAnswerIndex": 2,
+    "explication": "Paris est la plus grande ville et la capitale de la France."
+  },
+  {
     "id": 2,
     "question": "Quel langage de programmation est souvent utilisé pour le développement web côté client ?",
     "options": [

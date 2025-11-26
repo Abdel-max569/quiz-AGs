@@ -1,0 +1,80 @@
+@import url('fonts.googleapis.com');
+
+
+.principal{
+    width: 100%;
+    background-image: linear-gradient(to right, #a855f7, #ec4899, #f97316);
+    height: 100vh;
+}
+
+.entente{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    text-align: center; 
+    background-color: white;
+    padding: 20px;
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.img-entete {
+    width: 60px;
+    height: 60px;
+}
+
+/* Style spécifique pour les images dans les cartes */
+.card-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+}
+
+.first-desc{
+    margin-top: 15px;
+}
+
+.second-desc{
+    margin-top: 15px;
+}
+
+.all-card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-top: 50px;
+  justify-content: center; /* Centers cards horizontally */
+  gap: 20px; /* Adds space between cards */
+}
+
+.card {
+  color: #121212;
+  background-color: #ddd6d6;
+  border-radius: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 220px;
+  box-sizing: border-box; 
+  /* Transition pour l'animation fluide */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Effet de survol (zoom) */
+.card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.card-logo{
+    margin-bottom: 40px;
+    /* border-radius: 2000px; Cette règle n'est plus utile ici, c'est l'image qui gère le rond */
+}

@@ -4,18 +4,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
     font-family: "Inter", sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 600px;
-    
-    
-
+    background-color: #121212; 
+    color: #E0E0E0; 
 }
 
 .container {
@@ -23,80 +22,213 @@ body {
     padding: 30px;
     border-radius: 20px;
     backdrop-filter: blur(10px);
-    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5); /* Bordure floue */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6); 
     width: 600px;
-
-
-
+    background-color: rgba(30, 30, 30, 0.8);
+    display: none; 
+    
 }
 
 .head {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    border-color: 5px solid red;
-    /* background-color: aquamarine; */
     padding: 10px;
 }
 
 .btn {
-    background-color: aqua;
+    background-color: #007BFF; 
+    color: white; 
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.btn:hover {
+    background-color: #0056b3;
 }
 
 .question {
-    background-color: aquamarine;
-    padding: 10px;
+    background-color: #2C2C2C; 
+    padding: 20px; 
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px; 
+    font-size: 1.1rem; 
 }
 
 .proposition {
-    /* background-color: aqua; */
-    padding: 20px 0;
+    padding: 10px 0; 
 }
 
 .propo {
-    background-color: white;
+    background-color: #3C3C3C; 
+    color: #E0E0E0; 
     margin-bottom: 15px;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
     transition: 0.5s;
-    background-color: antiquewhite;
-
+    cursor: pointer; 
+    border: 1px solid #4a4a4a; /* Ajout d'une fine bordure */
 }
 
 .propo:hover {
-    background-color: rgb(58, 131, 221);
-    color: aliceblue;
+    background-color: #007BFF; 
+    color: white; 
+    transform: translateX(5px); 
 }
 
 .footer{
     display: flex;
     justify-content: space-between;
-    margin:0 2px ;
+    margin: 20px 2px 0 2px; 
 }
 
 .passer{
-    background-color: blue;
-    color: aliceblue;
+    background-color: #6C757D; 
+    color: white;
     transition: 0.5s;
-}
-.nbre{
-    background-color: rgb(181, 201, 201);
-    padding: 10px;
+    border: none;
+    padding: 10px 20px;
     border-radius: 10px;
+    cursor: pointer;
 }
+
+.nbre{
+    background-color: #2C2C2C; 
+    color: #007BFF; 
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex; 
+    align-items: center;
+}
+
 .passer:hover{
-    background-color:rgb(16, 16, 83);
-   
+    background-color: #5a6268; 
 }
 
 .explication{
-    background-color: bisque;
-    padding: 10px;
+    background-color: #1E4D2B; 
+    color: #C3E6CB; 
+    padding: 15px;
     margin: 20px 0;
     border-radius: 5px;
+    border-left: 5px solid #28A745; 
+}
+
+
+
+/* Classe à ajouter dynamiquement en JS quand l'utilisateur clique sur la bonne réponse */
+.propo.correct {
+    background-color: #28A745; 
+    color: white;
+    border-color: #1E4D2B;
+    pointer-events: none; 
+}
+
+/* Classe à ajouter dynamiquement en JS quand l'utilisateur clique sur une mauvaise réponse */
+.propo.wrong {
+    background-color: #DC3545; /* Rouge erreur */
+    color: white;
+    border-color: #A71D2A;
+    pointer-events: none;
+}
+
+.recommencer{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.principal{
+    width: 100%;
+    background-image: linear-gradient(to right, #a855f7, #ec4899, #f97316);
+    height: 100vh;
+    
+}
+
+.entente{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    text-align: center; 
+    background-color: white;
+    padding: 20px;
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.img-entete {
+    width: 60px;
+    height: 60px;
+}
+
+/* Style spécifique pour les images dans les cartes */
+.card-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+}
+
+.first-desc{
+    margin-top: 15px;
+}
+
+.second-desc{
+    margin-top: 15px;
+}
+
+.all-card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-top: 50px;
+  justify-content: center; /* Centers cards horizontally */
+  gap: 20px; /* Adds space between cards */
+}
+
+.card {
+  color: #121212;
+  background-color: #ddd6d6;
+  border-radius: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 220px;
+  box-sizing: border-box; 
+  /* Transition pour l'animation fluide */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Effet de survol (zoom) */
+.card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.card-logo{
+    margin-bottom: 40px;
+    /* border-radius: 2000px; Cette règle n'est plus utile ici, c'est l'image qui gère le rond */
 }

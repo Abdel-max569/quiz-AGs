@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compte à rebours</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #222;
+            color: white;
+            font-family: monospace;
+            font-size: 4rem;
+        }
+
+        .countdown {
+            padding: 20px;
+            border: 2px solid red;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="countdown">
+        <span id="timer">5 s</span>
+    </div>
+
+    <script>
+
+        // const timerElement = document.getElementById('timer');
+
+
+        // let secondesRestantes = 5;
+
+        // function mettreAJourCompteur() {
+        //     // Afficher la valeur actuelle dans l'HTML
+        //     timerElement.textContent = secondesRestantes + " s";
+
+        //     // Vérifier si le compte à rebours est terminé
+        //     if (secondesRestantes <= 0) {
+        //         // Si oui, arrêter l'intervalle
+        //         clearInterval(intervalId);
+        //         timerElement.textContent = "GO !"; // Message final
+        //         // Vous pouvez ajouter d'autres actions ici (ex: rediriger l'utilisateur)
+        //     } else {
+        //         // Sinon, décrémenter le compteur pour la prochaine seconde
+        //         secondesRestantes--;
+        //     }
+        // }
+
+        // // 4. Démarrer immédiatement la première mise à jour (affiche 5s)
+        // mettreAJourCompteur();
+
+        // // 5. Configurer l'intervalle pour appeler la fonction toutes les 1000ms (1 seconde)
+        // // On stocke l'ID de l'intervalle dans 'intervalId' pour pouvoir l'arrêter plus tard.
+        // const intervalId = setInterval(mettreAJourCompteur, 1000);
+
+
+
+        const timerElement = document.getElementById('timer');
+        function demarrerCompteARebours(secondes) {
+            const miseAJour = () => {
+                if (secondes > 0) {
+                    timerElement.textContent = secondes + " s";
+
+                    secondes--;
+
+                    setTimeout(miseAJour, 1000);
+                } else {
+                    timerElement.textContent = "GO !";
+                }
+            };
+            miseAJour();
+        }
+        demarrerCompteARebours(5);
+
+    </script>
+</body>
+
+</html>
