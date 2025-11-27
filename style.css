@@ -23,7 +23,8 @@ body {
     border-radius: 20px;
     backdrop-filter: blur(10px);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.6); 
-    width: 600px;
+    width: 600px; /* Base width for desktop */
+    max-width: 90%; /* Ensure it doesn't overflow on small screens */
     background-color: rgba(30, 30, 30, 0.8);
     display: none; 
     
@@ -118,8 +119,6 @@ body {
     border-left: 5px solid #28A745; 
 }
 
-
-
 /* Classe à ajouter dynamiquement en JS quand l'utilisateur clique sur la bonne réponse */
 .propo.correct {
     background-color: #28A745; 
@@ -140,25 +139,10 @@ body {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .principal{
     width: 100%;
     background-image: linear-gradient(to right, #a855f7, #ec4899, #f97316);
     height: 100vh;
-    
 }
 
 .entente{
@@ -216,7 +200,7 @@ body {
   background-color: #ddd6d6;
   border-radius: 20px;
   padding: 10px;
-  width: 300px;
+  width: 300px; /* Base width */
   height: 220px;
   box-sizing: border-box; 
   /* Transition pour l'animation fluide */
@@ -229,7 +213,75 @@ body {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
-.card-logo{
-    margin-bottom: 40px;
-    /* border-radius: 2000px; Cette règle n'est plus utile ici, c'est l'image qui gère le rond */
+
+/* --- Media Queries for Responsiveness --- */
+
+/* For screens smaller than 768px (tablets and large phones) */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        width: 95%;
+    }
+
+    .head, .footer {
+        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+        justify-content: center;
+        gap: 10px; /* Add some space when wrapping */
+    }
+
+    .btn, .passer, .nbre {
+        padding: 8px 16px; /* Slightly smaller padding for buttons */
+    }
+
+    .question {
+        font-size: 1rem; /* Slightly smaller font size */
+    }
+}
+
+/* For screens smaller than 480px (most mobile phones) */
+@media (max-width: 480px) {
+    body {
+        min-height: unset; /* Allow body to shrink on mobile */
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .head {
+        flex-direction: column; /* Stack header items vertically */
+        align-items: center;
+    }
+    
+    .footer {
+        flex-direction: column-reverse; /* Stack footer items vertically, put nbre on top */
+        align-items: center;
+        gap: 15px;
+    }
+
+    .btn, .passer {
+        width: 100%; /* Full width buttons */
+    }
+
+    .all-card {
+        padding: 10px;
+        margin-top: 20px;
+    }
+    
+    .card {
+        width: 100%; /* Full width cards */
+        height: auto; /* Auto height for content */
+        max-width: 300px; /* Max width to keep them readable */
+    }
+
+    .logo {
+        width: 80px;
+        height: 70px;
+        padding: 15px;
+    }
+
+    .img-entete, .card-img {
+        width: 50px;
+        height: 50px;
+    }
 }
